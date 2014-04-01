@@ -195,10 +195,12 @@ aside {
     max-height: 100%; }
 
 /* Main content */
-.blog-post h3 {
-  border-bottom: solid 2px #81d8d0;
-  margin: 20px 0 10px 0;
-  text-transform: uppercase;
-  line-height: 2em; }
-.blog-post h4 {
-  margin: 10px 0 20px 0; }
+.blog-post {
+  margin-bottom: 2em; }
+  .blog-post h3 {
+    border-bottom: solid 2px #81d8d0;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    line-height: 2em; }
+  .blog-post h4 {
+    margin: 10px 0 20px 0; }
