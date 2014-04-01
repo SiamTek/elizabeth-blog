@@ -15,7 +15,11 @@ $primaryCol: #81D8D0;
 /* Global Styles */
 *, *::before, *::after { @include boxSizing(border-box); }
 
-body { font-size: 16px; background: url(http://subtlepatterns.com/patterns/skulls.png); }
+body { 
+	font-size: 16px; 
+	font-family: "utopia-std",serif;
+	background: url(http://subtlepatterns.com/patterns/skulls.png); 
+}
 
 h1 { font-size: 60px; }
 h2 { font-size: 32px; }

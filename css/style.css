@@ -62,6 +62,7 @@ HTML Syntax
 
 body {
   font-size: 16px;
+  font-family: "utopia-std",serif;
   background: url(http://subtlepatterns.com/patterns/skulls.png); }
 
 h1 {
