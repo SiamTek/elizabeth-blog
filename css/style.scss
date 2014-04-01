@@ -78,7 +78,7 @@ a {
 
 
 // Styles Here
-.container { background: white; }
+.container { background: white; padding-bottom: 30px; }
 
 /* Header Section */
 
@@ -108,7 +108,14 @@ aside {
 	text-align: center;
 	h3 {
 		border-bottom: solid 2px $primaryCol;
-		margin: 10px 0;
+		margin: 20px 0 10px 0;
+		background: $primaryCol;
+		
+		font-family: sans-serif;
+		font-size: 18px;
+
+		text-transform: uppercase;
+		line-height: 2em;
 	}
 	ul li {
 		@extend %inlineList;
@@ -127,9 +134,12 @@ aside {
 .blog-post {
 	h3 {
 		border-bottom: solid 2px $primaryCol;
-		margin: 10px 0;
+		margin: 20px 0 10px 0;
+
+		text-transform: uppercase;
+		line-height: 2em;
 	}
 	h4 {
-		margin: 10px 0;
+		margin: 10px 0 20px 0;
 	}
 }
