@@ -1,0 +1,44 @@
+/*
+	Alacritous by Adam Sackfield (https://github.com/Sacki2013)
+	Licensed under the MIT License Copyright 2014 Adam Sackfield.
+*/
+// Features 
+//	- CSS Reset (Eric Meyer's Reset CSS v2.0 - http://cssreset.com)
+//	- Responsive Grid System (http://getbootstrap.com/css/#grid)
+//	- Mixins, Functions, Helper Classes and extends (See ReadMe)
+//  - jQuery CDN Link + Fallback file
+//  - index.html pre linked with assets and meta tags.
+@import 'sass/_sassy.scss';
+
+/* Global Styles */
+*, *::before, *::after { @include boxSizing(border-box); }
+
+body { font-size: 16px; background: white; }
+
+// Styles Here
+
+
+/* Header Section */
+
+.fancy a { @extend %hoverPre; letter-spacing: 6px; }
+
+.fancy { @include borderUp(); margin-bottom: 30px; } 
+
+.text-center {
+	text-align: center;
+}
+hgroup {
+	h1 {
+		color: #81D8D0;
+		font-size: 60px;
+		margin: 14px 0 8px 0;
+	}
+	h2 {
+		font-size: 24px;
+		margin: 0 0 20px 0;
+		letter-spacing: 10px;
+	}
+}
+
+
+

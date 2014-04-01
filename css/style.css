@@ -1,0 +1,112 @@
+/*
+	Alacritous by Adam Sackfield (https://github.com/Sacki2013)
+	Licensed under the MIT License Copyright 2014 Adam Sackfield.
+*/
+/* Helper Classes */
+.right {
+  float: right !important; }
+
+.left {
+  float: left !important; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+.fixed {
+  position: fixed; }
+
+.fancy a {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1.35em; }
+  .fancy a:hover, .fancy a:focus {
+    outline: none; }
+
+/* 
+HTML Syntax 
+
+<nav class="fancy">
+	<a href="#"><span>Main Text</span><span>Sub Text</span></a>
+	<a href="#"><span>Main Text</span><span>Sub Text</span></a>
+	<a href="#"><span>Main Text</span><span>Sub Text</span></a>
+	<a href="#"><span>Main Text</span><span>Sub Text</span></a>
+</nav>
+
+*/
+/* Global Styles */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  background: white; }
+
+/* Header Section */
+.fancy a {
+  letter-spacing: 6px; }
+
+.fancy {
+  margin-bottom: 30px; }
+  .fancy a {
+    padding: 12px 10px 10px;
+    color: black;
+    text-shadow: none;
+    font-weight: 700; }
+    .fancy a::before, .fancy a::after {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #81d8d0;
+      content: '';
+      -webkit-transition: -webkit-transform 0.3s;
+      -moz-transition: -moz-transform 0.3s;
+      transition: transform 0.3s;
+      -webkit-transform: scale(0.85);
+      -moz-transform: scale(0.85);
+      transform: scale(0.85); }
+    .fancy a::after {
+      opacity: 0;
+      -webkit-transition: top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+      -moz-transition: top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+      transition: top 0.3s, opacity 0.3s, transform 0.3s; }
+    .fancy a:hover::before, .fancy a:hover::after, .fancy a:focus::before, .fancy a:focus::after {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      transform: scale(1); }
+    .fancy a:hover::after, .fancy a:focus::after {
+      top: 0%;
+      opacity: 1; }
+
+.text-center {
+  text-align: center; }
+
+hgroup h1 {
+  color: #81D8D0;
+  font-size: 60px;
+  margin: 14px 0 8px 0; }
+hgroup h2 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  letter-spacing: 10px; }
