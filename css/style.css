@@ -2,6 +2,9 @@
 	Alacritous by Adam Sackfield (https://github.com/Sacki2013)
 	Licensed under the MIT License Copyright 2014 Adam Sackfield.
 */
+aside ul li {
+  display: inline; }
+
 /* Helper Classes */
 .right {
   float: right !important; }
@@ -59,6 +62,53 @@ HTML Syntax
 
 body {
   font-size: 16px;
+  background: url(http://subtlepatterns.com/patterns/skulls.png); }
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: color .4s ease;
+  -moz-transition: color .4s ease;
+  -ms-transition: color .4s ease;
+  -o-transition: color .4s ease;
+  transition: color .4s ease; }
+  a:hover {
+    color: #81d8d0; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?4x0l5l");
+  src: url("../fonts/icomoon.eot?#iefix4x0l5l") format("embedded-opentype"), url("../fonts/icomoon.woff?4x0l5l") format("woff"), url("../fonts/icomoon.ttf?4x0l5l") format("truetype"), url("../fonts/icomoon.svg?4x0l5l#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-mail:before {
+  content: "\e600"; }
+
+.icon-googleplus:before {
+  content: "\e601"; }
+
+.icon-facebook:before {
+  content: "\e602"; }
+
+.icon-twitter:before {
+  content: "\e603"; }
+
+.icon-pinterest:before {
+  content: "\e604"; }
+
+.container {
   background: white; }
 
 /* Header Section */
@@ -102,11 +152,33 @@ body {
 .text-center {
   text-align: center; }
 
-hgroup h1 {
-  color: #81D8D0;
+h1 {
+  color: #81d8d0;
   font-size: 60px;
-  margin: 14px 0 8px 0; }
-hgroup h2 {
+  margin: 14px 0 8px 0;
+  font-family: 'Lora', serif; }
+
+h1:nth-letter(2) {
+  color: black; }
+
+h2 {
   font-size: 24px;
   margin: 0 0 20px 0;
   letter-spacing: 10px; }
+
+/* Aside Styles */
+aside {
+  text-align: center; }
+  aside h3 {
+    font-size: 32px;
+    border-bottom: solid 2px #81d8d0;
+    margin: 10px 0; }
+  aside ul li {
+    font-size: 28px;
+    margin-right: 10px; }
+    aside ul li:last-child {
+      margin-right: 0; }
+  aside img {
+    display: block;
+    width: 100%;
+    max-height: 100%; }
