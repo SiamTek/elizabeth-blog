@@ -145,6 +145,14 @@ aside {
 		line-height: 2em;
 	}
 	h4 {
-		margin: 10px 0 20px 0;
+		margin: 10px 0 30px 0;
+		display: inline-block;
+		&:last-of-type {
+			float: right;
+			font-size: 16px;
+			background: $primaryCol;
+			color: white;
+			padding: 4px;
+		}
 	}
 }

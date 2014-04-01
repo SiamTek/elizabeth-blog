@@ -204,4 +204,11 @@ aside {
     text-transform: uppercase;
     line-height: 2em; }
   .blog-post h4 {
-    margin: 10px 0 20px 0; }
+    margin: 10px 0 30px 0;
+    display: inline-block; }
+    .blog-post h4:last-of-type {
+      float: right;
+      font-size: 16px;
+      background: #81d8d0;
+      color: white;
+      padding: 4px; }
