@@ -17,6 +17,11 @@ $primaryCol: #81D8D0;
 
 body { font-size: 16px; background: url(http://subtlepatterns.com/patterns/skulls.png); }
 
+h1 { font-size: 60px; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+
 a { 
 	text-decoration: none; 
 	color: black;
@@ -84,22 +89,17 @@ a {
 .text-center {
 	text-align: center;
 }
+hgroup {
 	h1 {
 		color: $primaryCol;
-		font-size: 60px;
 		margin: 14px 0 8px 0;
 		font-family: 'Lora', serif;
 	}
-	h1:nth-letter(2) { color: black; }
-
-	h2 {
-		font-size: 24px;
+	h3 {
 		margin: 0 0 20px 0;
 		letter-spacing: 10px;
 	}
-
-
-
+}
 
 
 /* Aside Styles */
@@ -107,7 +107,6 @@ a {
 aside {
 	text-align: center;
 	h3 {
-		font-size: 32px;
 		border-bottom: solid 2px $primaryCol;
 		margin: 10px 0;
 	}
@@ -120,5 +119,17 @@ aside {
 		display: block;
 		width: 100%;
 		max-height: 100%;
+	}
+}
+
+/* Main content */
+
+.blog-post {
+	h3 {
+		border-bottom: solid 2px $primaryCol;
+		margin: 10px 0;
+	}
+	h4 {
+		margin: 10px 0;
 	}
 }
