@@ -12,4 +12,4 @@
 					<li><a href="#" class="icon-mail"></a></li>
 				</ul>
 		</aside>
-		</div><!-- row close -->
+
