@@ -19,15 +19,15 @@
 </footer>
 </div><!-- container close -->
 
-<script src="js/lib/jquery.1.10.2.js"></script>
-<script>
-	window.onload = function() {
-	    if (window.jQuery) {  
-	        // jQuery is loaded  
-	        console.log("jQuery Loaded");
-	    } else {
-	        // jQuery is not loaded
-	        console.log("jQuery NOT Loaded");
-	    }
-	}
-</script>
+	<script src="js/lib/jquery.1.10.2.js"></script>
+	<script>
+		window.onload = function() {
+			if (window.jQuery) {  
+				// jQuery is loaded  
+				console.log("jQuery Loaded");
+			} else {
+				// jQuery is not loaded
+				console.log("jQuery NOT Loaded");
+			}
+		}
+	</script>
