@@ -18,8 +18,10 @@ $primaryCol: #81D8D0;
 body { 
 	font-size: 16px; 
 	font-family: "utopia-std",serif;
-	background: url(http://subtlepatterns.com/patterns/skulls.png); 
+	background: url('http://subtlepatterns.com/patterns/skulls.png'); 
 }
+
+.container { background: white; padding-bottom: 30px; }
 
 h1 { font-size: 60px; }
 h2 { font-size: 32px; }
@@ -29,16 +31,14 @@ h4 { font-size: 20px; }
 a { 
 	text-decoration: none; 
 	color: black;
-	-webkit-transition: color .4s ease;
-	-moz-transition: color .4s ease;
-	-ms-transition: color .4s ease;
-	-o-transition: color .4s ease;
-	transition: color .4s ease;
+	@include transition(color .4s ease);
 	&:hover {
 		color: $primaryCol;
 	}
 }
 
+
+/* Icons */
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?4x0l5l');
@@ -80,15 +80,13 @@ a {
 	content: "\e604";
 }
 
+/* Header/Nav Section */
 
-// Styles Here
-.container { background: white; padding-bottom: 30px; }
 
-/* Header Section */
 
 .fancy a { @extend %hoverPre; letter-spacing: 6px; }
 
-.fancy { @include borderUp(); margin-bottom: 30px; } 
+.fancy { @include borderUp(); margin-bottom: 30px; padding-bottom: 20px; border-bottom: solid 1px rgba(#494949, 0.2);} 
 
 .text-center {
 	text-align: center;
@@ -111,13 +109,10 @@ hgroup {
 aside {
 	text-align: center;
 	h3 {
-		border-bottom: solid 2px $primaryCol;
-		margin: 20px 0 10px 0;
 		background: $primaryCol;
-		
+		@include margin(20px, 0, 10px, 0);
 		font-family: sans-serif;
 		font-size: 18px;
-
 		text-transform: uppercase;
 		line-height: 2em;
 	}
@@ -133,19 +128,18 @@ aside {
 	}
 }
 
-/* Main content */
+/* Blog Page Styles */
 
 .blog-post {
 	margin-bottom: 2em; 
 	h3 {
 		border-bottom: solid 2px $primaryCol;
-		margin: 20px 0 10px 0;
-
+		@include margin(20px, 0, 10px, 0);
 		text-transform: uppercase;
 		line-height: 2em;
 	}
 	h4 {
-		margin: 10px 0 30px 0;
+		@include margin(10px, 0, 30px, 0);
 		display: inline-block;
 		&:last-of-type {
 			float: right;
@@ -153,6 +147,28 @@ aside {
 			background: $primaryCol;
 			color: white;
 			padding: 4px;
+		}
+	}
+	p {
+		clear: both;
+		line-height: 20px;
+	}
+}
+
+/* About Page Styles */
+
+#about {
+	img {
+		display: block;
+		width: 100%;
+		max-height: 100%;
+		margin-bottom: 30px;
+	}
+	p {
+		line-height: 20px;
+		margin-bottom: 10px;
+		span {
+			color: $primaryCol;
 		}
 	}
 }
