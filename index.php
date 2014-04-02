@@ -12,7 +12,7 @@
 			<section class="col-sm-8 text-center">
 			<h3 class="text-center">About Me</h3>
 				<p class="lead">Hello lovely people, thank you for checking out my blog! My name is Elizabeth Joy (nice to meet you). I'm a twenty-something living in Madison, Wisconsin still trying to figure out what I'm doing with my life. I call it a quarter-life crisis, but we will get through this together, right? Anywho, here is a few tid-bits about me:</p>
-					<ul class="text-center">
+					<ul id="aboutList" class="text-center">
 						<li>I take few things seriously</li>
 						<li>I love, love (seriously, I do)</li>
 						<li>I'm a HUGE fan of comedy</li>

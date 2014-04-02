@@ -251,9 +251,9 @@ aside {
 #about .lead {
   line-height: 24px;
   color: #333333; }
-#about li {
+#about #aboutList li {
   margin: 8px 0; }
-  #about li:nth-child(odd) {
+  #about #aboutList li:nth-child(odd) {
     color: #81d8d0; }
 
 /* Contact Page Styles */
