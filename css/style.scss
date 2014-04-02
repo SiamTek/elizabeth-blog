@@ -172,3 +172,41 @@ aside {
 		}
 	}
 }
+
+/* Contact Page Styles */
+#contact {
+	form {
+		border: solid 2px $primaryCol;
+		label, input, textarea {
+			display: block;
+			margin: 4px auto;
+			text-align: center;
+			outline: none;
+		}
+		input:not([type="submit"]), textarea {
+			width: 300px;
+			padding: 4px;
+			@include transition(width .5s linear);
+			&:focus {
+				width: 400px;
+				border: solid 2px $primaryCol;
+			}
+		}
+		textarea {
+			height: 100px;
+		}
+		input[type="submit"] {
+			background: $primaryCol;
+			width: 300px;
+			border: none;
+			outline: none;
+			padding: 8px;
+			margin: 10px auto;
+			box-shadow: 2px 2px 4px #494949;
+			@include transition(box-shadow .4s ease);
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+}
