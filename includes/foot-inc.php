@@ -3,13 +3,14 @@
 		<section class="col-sm-4">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="blog.html">Blog</a></li>
+				<li><a href="about.html">Inspiration</a></li>
+				<li><a href="blog.html">Healthy Living</a></li>
+				<li><a href="contact.html">Thoughts</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</section>
 		<section class="col-sm-4">
-			<h4>&copy; 2014 Design by Siam Tek.</h4>
+			<h4>&copy; <?php echo date('Y'); ?> Design by Siam Tek.</h4>
 		</section>
 		<section class="col-sm-4">
 			Back to top Icon

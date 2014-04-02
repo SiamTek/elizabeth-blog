@@ -246,15 +246,14 @@ aside {
     line-height: 20px; }
 
 /* About Page Styles */
-#about img {
-  display: block;
-  width: 100%;
-  max-height: 100%;
-  margin-bottom: 30px; }
-#about p {
-  line-height: 20px;
-  margin-bottom: 10px; }
-  #about p span {
+#about h3 {
+  margin: 10px 0; }
+#about .lead {
+  line-height: 24px;
+  color: #333333; }
+#about li {
+  margin: 8px 0; }
+  #about li:nth-child(odd) {
     color: #81d8d0; }
 
 /* Contact Page Styles */
