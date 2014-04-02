@@ -260,6 +260,10 @@ aside {
 /* Contact Page Styles */
 #contact form {
   border: solid 2px #81d8d0; }
+  #contact form h2 {
+    background: #81d8d0;
+    line-height: 1.5em;
+    margin-bottom: 30px; }
   #contact form label, #contact form input, #contact form textarea {
     display: block;
     margin: 4px auto;
@@ -296,7 +300,9 @@ aside {
 
 /* Footer Styles */
 footer {
-  background: #81d8d0; }
+  margin-top: 30px;
+  background: #81d8d0;
+  line-height: 2em; }
   footer ul li {
     display: inline; }
     footer ul li:after {

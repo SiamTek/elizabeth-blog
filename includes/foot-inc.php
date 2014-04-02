@@ -1,19 +1,19 @@
 <footer class="text-center">
 	<div class="row">
-		<article class="col-sm-4">
+		<section class="col-sm-4">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</article>
-		<article class="col-sm-4">
-			<h4>Site Created by Siam-Tek</h4>
-		</article>
-		<article class="col-sm-4">
+		</section>
+		<section class="col-sm-4">
+			<h4>&copy; 2014 Design by Siam Tek.</h4>
+		</section>
+		<section class="col-sm-4">
 			Back to top Icon
-		</article>
+		</section>
 	</div><!-- row close -->
 </footer>
 </div><!-- container close -->
