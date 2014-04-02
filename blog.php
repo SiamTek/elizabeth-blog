@@ -29,7 +29,7 @@
 		</section>
 		
 		<?php include 'includes/sidebar-inc.php'; ?>
-
+		</div><!-- row close -->
 
 		<?php include 'includes/foot-inc.php'; ?>
 
