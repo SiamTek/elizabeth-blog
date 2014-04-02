@@ -1,45 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<!--[if lt IE 9]> <script src="js/lib/html5shiv.js"></script> <![endif]-->
-	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/reset.css" media="screen">
-	<link rel="stylesheet" href="css/grid.css" media="screen">
- 	<link rel="stylesheet" href="css/style.css" media="screen">
- 	<meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
-  <meta name="copyright" content="" />
-  <meta name="geo.region" content="" />
-  <meta name="geo.placename" content="" />
-  <meta name="geo.position" content="" />
-  <meta name="ICBM" content="" />
-	<meta charset="UTF-8">
-  <!-- <script type="text/javascript">
-    (function(d) {
-      var config = {
-        kitId: 'ytx6pjn',
-        scriptTimeout: 3000
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script> -->
+	<?php include 'includes/head-inc.php'; ?>
 	<title>Consistently Inconsistent | A Blog for Elizabeth Richter</title>
 </head>
 <body>
 
-		<div class="container">
-			<hgroup class="text-center">
-				<h1>Consistently Inconsistent</h1>
-					<h3>by Elizabeth Richter</h3>
-			</hgroup>
-
-		<nav class="fancy text-center">
-			<a href="index.html">Home</a>
-	    <a href="about.html">About</a>
-	    <a href="blog.html">Blog</a>
-	    <a href="contact.html">Contact</a>
-		</nav>
+		<?php include 'includes/nav-inc.php'; ?>
 		
 		<div class="row">	
 		<section class="col-sm-8">
@@ -77,42 +44,7 @@
 		</div><!-- row close -->
 
 
-		<footer class="text-center">
-			<div class="row">
-				<article class="col-sm-4">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</article>
-				<article class="col-sm-4">
-					<h4>Site Created by Siam-Tek</h4>
-				</article>
-				<article class="col-sm-4">
-					Back to top Icon
-				</article>
-			</div><!-- row close -->
-		</footer>
-	</div><!-- container close -->
-
-
-
-
-
-	<script src="js/lib/jquery.1.10.2.js"></script>
-	<script>
-		window.onload = function() {
-		    if (window.jQuery) {  
-		        // jQuery is loaded  
-		        console.log("jQuery Loaded");
-		    } else {
-		        // jQuery is not loaded
-		        console.log("jQuery NOT Loaded");
-		    }
-		}
-	</script>
+		<?php include 'includes/foot-inc.php'; ?>
 
 </body>
 </html>
