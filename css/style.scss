@@ -210,3 +210,18 @@ aside {
 		}
 	}
 }
+
+/* Footer Styles */
+
+footer {
+	background: $primaryCol;
+	ul li {
+			display: inline;
+			&:after {
+				content: ' / ';
+			}
+	}
+	li:last-child:after {
+		content: '';
+	}
+}

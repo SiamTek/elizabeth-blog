@@ -266,3 +266,13 @@ aside {
     transition: box-shadow 0.4s ease 0; }
     #contact form input[type="submit"]:hover {
       box-shadow: none; }
+
+/* Footer Styles */
+footer {
+  background: #81d8d0; }
+  footer ul li {
+    display: inline; }
+    footer ul li:after {
+      content: ' / '; }
+  footer li:last-child:after {
+    content: ''; }
