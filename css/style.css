@@ -316,7 +316,8 @@ footer {
   margin-top: 30px;
   padding: 20px;
   background: #81d8d0;
-  line-height: 1.625em; }
+  line-height: 1.625em;
+  box-shadow: 5px 5px 5px #000; }
   footer ul li {
     display: inline; }
     footer ul li:after {
