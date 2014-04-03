@@ -96,7 +96,9 @@ a {
 .text-center {
 	text-align: center;
 }
-hgroup {
+div.hgroup {
+	display: block;
+	margin: 20px, 0;
 	h1 {
 		color: $primaryCol;
 		margin: 14px 0 8px 0;

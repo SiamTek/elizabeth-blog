@@ -200,13 +200,16 @@ a {
 .text-center {
   text-align: center; }
 
-hgroup h1 {
-  color: #81d8d0;
-  margin: 14px 0 8px 0;
-  font-family: 'Lora', serif; }
-hgroup h3 {
-  margin: 0 0 20px 0;
-  letter-spacing: 10px; }
+div.hgroup {
+  display: block;
+  margin: 20px, 0; }
+  div.hgroup h1 {
+    color: #81d8d0;
+    margin: 14px 0 8px 0;
+    font-family: 'Lora', serif; }
+  div.hgroup h3 {
+    margin: 0 0 20px 0;
+    letter-spacing: 10px; }
 
 /* Aside Styles */
 aside {
