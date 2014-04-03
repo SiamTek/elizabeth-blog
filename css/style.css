@@ -206,14 +206,14 @@ hgroup h3 {
 
 /* Aside Styles */
 aside {
-  text-align: center; }
+  text-align: center;}
   aside h3 {
     background: #81d8d0;
     margin: 20px 0 10px 0;
     font-family: sans-serif;
     font-size: 18px;
     text-transform: uppercase;
-    line-height: 2em; }
+    line-height: 2em;}
   aside ul li {
     font-size: 28px;
     margin-right: 10px; }
@@ -302,7 +302,8 @@ aside {
 footer {
   margin-top: 30px;
   background: #81d8d0;
-  line-height: 2em; }
+  line-height: 2em;
+  box-shadow: 5px 5px 5px #000; }
   footer ul li {
     display: inline; }
     footer ul li:after {
