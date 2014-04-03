@@ -22,6 +22,7 @@
 						<li>I can't wait to get you know you all of you out there, and again thanks for stopping by <a href="#">Consistently Inconsistent</a>!</li>
 					</ul>
 				<p>xoxo</p>
+                <p>Ms. Joy</p>
 			</section>
 
 			<?php include 'includes/sidebar-inc.php'; ?>
