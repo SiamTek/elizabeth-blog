@@ -62,12 +62,16 @@ HTML Syntax
 
 body {
   font-size: 16px;
-  font-family: "utopia-std",serif;
+  font-family: 'Lora',serif;
+  line-height: 1.625em;
   background: url("http://subtlepatterns.com/patterns/skulls.png"); }
 
 .container {
   background: white;
   padding-bottom: 30px; }
+
+h1, h2, h3, h4, h5, h6, p, span {
+  line-height: 1.625em; }
 
 h1 {
   font-size: 60px; }
@@ -210,10 +214,11 @@ aside {
   aside h3 {
     background: #81d8d0;
     margin: 20px 0 10px 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     text-transform: uppercase;
-    line-height: 2em; }
+    line-height: 1.625em; }
   aside ul li {
     font-size: 28px;
     margin-right: 10px; }
@@ -231,12 +236,12 @@ aside {
     border-bottom: solid 2px #81d8d0;
     margin: 20px 0 10px 0;
     text-transform: uppercase;
-    line-height: 2em; }
+    line-height: 1.625em; }
   .blog-post h4 {
     margin: 10px 0 30px 0;
-    display: inline-block;
-    /*  Perhaps we should move the following rule to an easier-to-target class */ }
+    display: inline-block; }
     .blog-post h4:last-of-type {
+      /*  Perhaps we should move this rule to an easier-to-target CSS class  */
       float: right;
       font-size: 16px;
       background: #39baae;
@@ -253,9 +258,10 @@ aside {
   line-height: 24px;
   color: #333333; }
 #about #aboutList li {
-  margin: 8px 0; }
-  #about #aboutList li:nth-child(odd) {
-    color: #81d8d0; }
+  margin: 8px 0;
+  /*		&:nth-child(odd) {
+   *			color: $primaryCol;
+   *		} */ }
 
 /* Contact Page Styles */
 #contact form {
@@ -301,8 +307,9 @@ aside {
 /* Footer Styles */
 footer {
   margin-top: 30px;
+  padding: 20px;
   background: #81d8d0;
-  line-height: 2em; }
+  line-height: 1.625em; }
   footer ul li {
     display: inline; }
     footer ul li:after {

@@ -4,12 +4,15 @@
 				<img src="http://lorempixel.com/output/abstract-q-c-640-480-1.jpg" alt="">
 
 			<h3>Social Media</h3>
-				<ul>
-					<li><a href="#" class="icon-facebook"></a></li>
-					<li><a href="#" class="icon-twitter"></a></li>
-					<li><a href="#" class="icon-pinterest"></a></li>
-					<li><a href="#" class="icon-googleplus"></a></li>
-					<li><a href="#" class="icon-mail"></a></li>
-				</ul>
+			<ul>
+				<li><a href="#" class="icon-facebook"></a></li>
+				<li><a href="#" class="icon-twitter"></a></li>
+				<li><a href="#" class="icon-pinterest"></a></li>
+				<li><a href="#" class="icon-googleplus"></a></li>
+				<li><a href="#" class="icon-mail"></a></li>
+			</ul>
+			
+			<h3>Your Ad Here:</h3> 
+			<img src="http://placehold.it/350x150&text=Sample+Ad">
 		</aside>
 
