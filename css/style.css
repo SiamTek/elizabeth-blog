@@ -64,7 +64,7 @@ body {
   font-size: 16px;
   font-family: 'Lora',serif;
   line-height: 1.625em;
-  background: url("http://subtlepatterns.com/patterns/skulls.png"); }
+  background: url("http://subtlepatterns.com/purty-wood/"); }
 
 .container {
   background: white;
@@ -203,10 +203,16 @@ a {
 div.hgroup {
   display: block;
   margin: 20px 0; }
+  div.hgroup span {
+    unicode-bidi: bidi-override;
+    direction: rtl; }
   div.hgroup h1 {
     color: #81d8d0;
     margin: 14px 0 8px 0;
-    font-family: 'Lora', serif; }
+    font-family: 'Lora', serif;
+    font-size: 5em; }
+  div.hgroup:hover {
+    opacity: .7; }
   div.hgroup h3 {
     margin: 0 0 20px 0;
     letter-spacing: 10px; }

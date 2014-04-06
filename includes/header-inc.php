@@ -1,5 +1,4 @@
 	<div class="container">
 		<div class="hgroup text-center">
-			<h1>Consistently Inconsistent</h1>
-				<h3>by Elizabeth Joy</h3>
+            <a href="index.php"><h1>Consistently | <span> Inconsistent</span></h1></a>
 		</div>

@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<?php include 'includes/head-inc.php'; ?>
-	<title>Consistently | Inconsistent</title>
+	<title>Consistently | Inconsistent: Cats</title>
 </head>
-<body id="about">
-	<?php include 'includes/header-inc.php'; ?>
+<body>
+		<?php include 'includes/header-inc.php'; ?>
 
-	<?php include 'includes/nav-inc.php'; ?>
-
-    <div class="row">	
+		<?php include 'includes/nav-inc.php'; ?>
+		
+		<div class="row">	
 		<section class="col-sm-8">
 			<article class="blog-post">
 				<h3>Blog Post Title</h3>
@@ -28,9 +28,11 @@
 						Sit, delectus non molestiae placeat quas quaerat doloremque distinctio accusantium magnam minus? Enim, quibusdam, veritatis deleniti doloremque quod accusamus error sit iste vitae dolor aliquam tempore quae saepe eligendi laudantium.</p>
 			</article>
 		</section>
+	<section class="col-lg-4">
+		<?php include 'includes/sidebar-inc.php'; ?>
+    </section>
+		</div><!-- row close -->
 
-        <?php include 'includes/sidebar-inc.php'; ?>
-    </div>
 		<?php include 'includes/foot-inc.php'; ?>
 
 </body>

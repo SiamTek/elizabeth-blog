@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php include 'includes/head-inc.php'; ?>
-	<title>Consistently Inconsistent | A Blog by Elizabeth Richter</title>
+	<title>Consistently | Inconsistent: Blog</title>
 </head>
 <body>
 		<?php include 'includes/header-inc.php'; ?>
