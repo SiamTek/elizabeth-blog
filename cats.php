@@ -28,9 +28,9 @@
 						Sit, delectus non molestiae placeat quas quaerat doloremque distinctio accusantium magnam minus? Enim, quibusdam, veritatis deleniti doloremque quod accusamus error sit iste vitae dolor aliquam tempore quae saepe eligendi laudantium.</p>
 			</article>
 		</section>
-	<section class="col-lg-4">
+
 		<?php include 'includes/sidebar-inc.php'; ?>
-    </section>
+
 		</div><!-- row close -->
 
 		<?php include 'includes/foot-inc.php'; ?>

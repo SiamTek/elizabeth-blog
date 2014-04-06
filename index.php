@@ -1,4 +1,4 @@
-<!doctype html>
+<?php
 <html lang="en">
 <head>
 	<?php include 'includes/head-inc.php'; ?>
@@ -35,3 +35,4 @@
 
 </body>
 </html>
+?>
