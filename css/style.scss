@@ -11,6 +11,9 @@
 @import 'sass/_sassy.scss';
 
 $primaryCol: #81D8D0;
+@mixin hide() {
+	display: none !important;
+}
 
 /* Global Styles */
 *, *::before, *::after { @include boxSizing(border-box); }
@@ -19,10 +22,16 @@ body {
 	font-size: 16px; 
 	font-family: 'Lora',serif;
 	line-height: 1.625em;
-	background: url('http://subtlepatterns.com/purty-wood/'); 
+	background: url('http://subtlepatterns.com/patterns/purty_wood.png'); 
 }
 
 .container { background: white; padding-bottom: 30px; }
+
+.hideOnMobile {
+	@media screen and (max-device-width: 480px) {
+		@include hide();
+	}
+}
 
 h1, h2, h3, h4, h5, h6, p, span {
 	line-height: 1.625em;
@@ -89,9 +98,15 @@ a {
 
 
 
-.fancy a { @extend %hoverPre; letter-spacing: 2px; }
-
-.fancy { @include borderText(); margin-bottom: 30px; padding-bottom: 20px; border-bottom: solid 1px rgba(#494949, 0.2);} 
+.fancy { 
+	@include borderText(); 
+	margin-bottom: 30px; 
+	padding-bottom: 20px; 
+	border-bottom: solid 1px rgba(#494949, 0.2);
+	a { 
+		@extend %hoverPre; letter-spacing: 2px;
+	}
+} 
 
 .text-center {
 	text-align: center;

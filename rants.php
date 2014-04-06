@@ -7,8 +7,6 @@
 <body id="about">
 	<?php include 'includes/header-inc.php'; ?>
 
-	<?php include 'includes/nav-inc.php'; ?>
-
     <div class="row">	
 		<section class="col-sm-8">
 			<article class="blog-post">

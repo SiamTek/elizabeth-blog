@@ -64,11 +64,15 @@ body {
   font-size: 16px;
   font-family: 'Lora',serif;
   line-height: 1.625em;
-  background: url("http://subtlepatterns.com/purty-wood/"); }
+  background: url("http://subtlepatterns.com/patterns/purty_wood.png"); }
 
 .container {
   background: white;
   padding-bottom: 30px; }
+
+@media screen and (max-device-width: 480px) {
+  .hideOnMobile {
+    display: none !important; } }
 
 h1, h2, h3, h4, h5, h6, p, span {
   line-height: 1.625em; }
@@ -131,9 +135,6 @@ a {
   content: "\e604"; }
 
 /* Header/Nav Section */
-.fancy a {
-  letter-spacing: 2px; }
-
 .fancy {
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -196,6 +197,8 @@ a {
       -webkit-transform: translateY(0%);
       -moz-transform: translateY(0%);
       transform: translateY(0%); }
+  .fancy a {
+    letter-spacing: 2px; }
 
 .text-center {
   text-align: center; }

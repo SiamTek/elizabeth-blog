@@ -6,8 +6,6 @@
 </head>
 <body>
 		<?php include 'includes/header-inc.php'; ?>
-
-		<?php include 'includes/nav-inc.php'; ?>
 		
 		<div class="row">	
 		<section class="col-sm-8">

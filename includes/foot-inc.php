@@ -10,7 +10,7 @@
 			</ul>
 		</section>
 		<section class="col-sm-4">
-			<h4>&copy; <?php echo date('Y'); ?> Design by Siam Tek.</h4>
+			<h4>&copy; <?php echo date('Y'); ?> Design by <a href="http://siamtek.com" title="Siam Tek: Technology, Entrepreneurship & Business" target="_blank">Siam Tek</a>.</h4>
 		</section>
 		<section class="col-sm-4">
 			Back to top Icon
