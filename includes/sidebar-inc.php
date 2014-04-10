@@ -13,6 +13,6 @@
 			</ul>
 			
 			<h3>Your Ad Here:</h3> 
-			<img src="http://placehold.it/350x150&text=Sample+Ad">
+			<img src="http://placehold.it/336x228&text=Sample+Ad">
 		</aside>
 
