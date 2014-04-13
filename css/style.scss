@@ -115,8 +115,19 @@ div.hgroup {
 	display: block;
 	margin: 20px 0;
     span{
-        unicode-bidi:bidi-override;
-        direction:rtl;
+        color: black;
+        -webkit-transition: color .4s ease;
+        -moz-transition: color .4s ease;
+        -ms-transition: color .4s ease;
+        -o-transition: color .4s ease;
+        transition: color .4s ease;
+    }
+}
+ &:hover span{
+   unicode-bidi:bidi-override;
+   direction:rtl;
+   color: $primaryCol;
+ }
     }
 	h1 {
 		color: $primaryCol;
