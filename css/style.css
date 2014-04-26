@@ -139,6 +139,12 @@ a {
   content: "\e604"; }
 
 /* Header/Nav Section */
+@font-face {
+  font-family: 'potteryb';
+  src: url("../fonts/potteryb.ttf"); }
+.main_title {
+  font-family: potteryb; }
+
 .fancy {
   margin: 0 0 30px 0;
   padding-bottom: 20px;
@@ -240,11 +246,7 @@ a {
 
 .hgroup {
   display: block;
-  margin: 20px 0;
-  overflow: hidden;
-  text-align: center; }
-  .hgroup .firstText:hover {
-    /*  Work to Implement This: http://codepen.io/dlucero23/pen/vmIoq  */ }
+  margin: 20px 0; }
   .hgroup h1 {
     color: #81d8d0;
     margin: 14px 0 8px 0;
