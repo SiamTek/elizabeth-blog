@@ -6,7 +6,10 @@
 // .fancy { @include THEMIXINOFCHOICE(); }  
 
 // Variables for Coloring
-$primaryColor: black;
+/*$primaryColor: black;
+$secondaryColor: #81D8D0;*/
+
+$primaryColor: rgba(0,0,0,0.65);
 $secondaryColor: #81D8D0;
 
 %hoverPre {

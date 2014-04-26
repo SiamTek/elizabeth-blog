@@ -41,7 +41,7 @@
 	box-shadow: $a $b;
 }
 
-// Example @include boxSzing(border-box); 
+// Example @include boxSizing(border-box); 
 @mixin boxSizing($a) {
   -webkit-box-sizing: $a; 
      -moz-box-sizing: $a; 

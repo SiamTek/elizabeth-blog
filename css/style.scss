@@ -11,6 +11,7 @@
 @import 'sass/_sassy.scss';
 
 $primaryCol: #81D8D0;
+$linkColor: #39baae;
 @mixin hide() {
 	display: none !important;
 }
@@ -23,6 +24,7 @@ body {
 	font-family: 'Lora',serif;
 	line-height: 1.625em;
 	background: url('http://subtlepatterns.com/patterns/purty_wood.png'); 
+	color: rgba(0,0,0,0.8);
 }
 
 .container { background: white; padding-bottom: 30px; }
@@ -37,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 	line-height: 1.625em;
 }
 
-h1 { font-size: 60px; }
+h1 { font-size: 60px; font-weight: 400;}
 h2 { font-size: 32px; }
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
@@ -100,20 +102,68 @@ a {
 
 .fancy { 
 	@include borderText(); 
-	margin-bottom: 30px; 
+	margin: 0 0 30px 0; 
 	padding-bottom: 20px; 
+	color: rgba(0,0,0,0.6);
 	border-bottom: solid 1px rgba(#494949, 0.2);
 	a { 
 		@extend %hoverPre; letter-spacing: 2px;
 	}
+	@media screen and (max-width: 992px) {
+		margin: 30px;
+	}
+	@media screen and (max-width: 768px) {
+		margin: 30px 0;
+	}
+	@media screen and (max-width: 480px) {
+		
+	}
+		
 } 
 
 .text-center {
 	text-align: center;
 }
-div.hgroup {
+/*  Animate Title class Keyframe rules --- Does not work yet. */ 
+@-webkit-keyframes AnimateTitle {
+  0%   { }
+  100% { 
+		unicode-bidi:bidi-override;
+        direction:rtl;
+	}
+}
+@-moz-keyframes AnimateTitle {
+  0%   { }
+  100% { 
+		unicode-bidi:bidi-override;
+        direction:rtl;
+	}
+}
+@-o-keyframes AnimateTitle {
+  0%   { }
+  100% { 
+		unicode-bidi:bidi-override;
+        direction:rtl;
+	}
+}
+@keyframes AnimateTitle {
+  0%   { }
+  100% { 
+		unicode-bidi:bidi-override;
+        direction:rtl;
+	}
+}
+.hgroup, .firstText {   
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;  }
+
+.hgroup {
 	display: block;
 	margin: 20px 0;
+<<<<<<< HEAD
     span{
         color: black;
         -webkit-transition: color .4s ease;
@@ -128,15 +178,27 @@ div.hgroup {
    direction:rtl;
    color: $primaryCol;
  }
+=======
+	overflow: hidden;
+	text-align: center;
+    .firstText {
+		&:hover { /*  Work to Implement This: http://codepen.io/dlucero23/pen/vmIoq  */
+
+		}
+>>>>>>> 9e583a2f6feb586ab33fa6bbc2538e8fd6b87498
     }
 	h1 {
 		color: $primaryCol;
 		margin: 14px 0 8px 0;
-		font-family: 'Lora', serif;
+		font-family: 'Oswald', serif;
+		font-weight: 400;
         font-size: 5em;
 	}
     &:hover {
         opacity: .7;
+		.firstText {
+
+		}
     }
 	h3 {
 		margin: 0 0 20px 0;
@@ -157,6 +219,7 @@ aside {
 		font-size: 18px;
 		text-transform: uppercase;
 		line-height: 1.625em;
+		color: rgba(0,0,0,0.75);
 
 	}
 	ul li {
@@ -170,7 +233,7 @@ aside {
 		max-height: 100%;
 	}
 	[class^="icon"] {
-		color: black;
+		color: rgba(0,0,0,0.7);
 		&:hover {
 			color: $primaryCol;
 		}
@@ -211,17 +274,10 @@ aside {
 	h3 {
 		margin: 10px 0;
 	}
-	.lead {
-		line-height: 24px;
-		color: lighten(black, 20%);
 	}
 	#aboutList li {
 		margin: 8px 0;
-/*		&:nth-child(odd) {
- *			color: $primaryCol;
- *		} */ 
-// ----commented out by diego ---- the primary color in text should be reserved for links only.  Most body text should stay uniform in regular usage otherwise.
-	}
+		text-align: left;
 }
 
 /* Contact Page Styles */
@@ -276,6 +332,7 @@ footer {
 	background: $primaryCol;
 	line-height: 1.625em;
 	box-shadow: 5px 5px 5px #000;
+	color: rgba(0,0,0,0.75);
 	ul li {
 			display: inline;
 			&:after {
@@ -287,7 +344,7 @@ footer {
 	}
 	a { 
 	text-decoration: none; 
-	color: black;
+	color: rgba(0,0,0,0.65);
 	@include transition(color .4s ease);
 	&:hover {
 		color: darken($primaryCol, 25%);
