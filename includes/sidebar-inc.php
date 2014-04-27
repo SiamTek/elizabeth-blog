@@ -1,8 +1,5 @@
 
 	<aside class="col-sm-4">
-			<h3>This Is Me</h3>
-				<img src="http://lorempixel.com/output/abstract-q-c-640-480-1.jpg" alt="">
-
 			<h3>Social Media</h3>
 			<ul>
 				<li><a href="#" class="icon-facebook"></a></li>
@@ -12,7 +9,11 @@
 				<li><a href="#" class="icon-mail"></a></li>
 			</ul>
 			
-			<h3>Your Ad Here:</h3> 
-			<img src="http://placehold.it/336x228&text=Sample+Ad">
-		</aside>
+			<h3>The Best of:</h3> 
+			<ul>
+				<li><a href="#">Cats</a></li>
+				<li><a href="#">Cats 2</a></li>
+				<li><a href="#">Cats: The Return</a></li>
+				<li><a href="#">My First Rant</a></li>
+	</aside>
 
