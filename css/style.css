@@ -104,13 +104,20 @@ a {
   a:hover {
     color: #6ed2c9; }
 
-/* Icons */
+/*Custom Fonts*/
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?4x0l5l");
   src: url("../fonts/icomoon.eot?#iefix4x0l5l") format("embedded-opentype"), url("../fonts/icomoon.woff?4x0l5l") format("woff"), url("../fonts/icomoon.ttf?4x0l5l") format("truetype"), url("../fonts/icomoon.svg?4x0l5l#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'pottery_barnregular';
+  src: url("../fonts/potteryb-webfont.eot");
+  src: url("../fonts/potteryb-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/potteryb-webfont.woff") format("woff"), url("../fonts/potteryb-webfont.ttf") format("truetype"), url("../fonts/potteryb-webfont.svg#pottery_barnregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Icons */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -138,12 +145,9 @@ a {
 .icon-pinterest:before {
   content: "\e604"; }
 
-/* Header/Nav Section */
-@font-face {
-  font-family: 'potteryb';
-  src: url("../fonts/potteryb.ttf"); }
+/* Header & Nav Section */
 .main_title {
-  font-family: potteryb; }
+  font-family: 'pottery_barnregular'; }
 
 .fancy {
   margin: 0 0 30px 0;

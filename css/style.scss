@@ -57,7 +57,7 @@ a {
 
 
 
-/* Icons */
+/*Custom Fonts*/
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?4x0l5l');
@@ -69,6 +69,20 @@ a {
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'pottery_barnregular';
+    src: url('../fonts/potteryb-webfont.eot');    
+    src: url('../fonts/potteryb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/potteryb-webfont.woff') format('woff'),        
+         url('../fonts/potteryb-webfont.ttf') format('truetype'),        
+         url('../fonts/potteryb-webfont.svg#pottery_barnregular') format('svg');   
+    font-weight: normal;   
+    font-style: normal;
+}
+
+
+
+/* Icons */
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
@@ -103,14 +117,9 @@ a {
 
 
 
-/* Header/Nav Section */
-@font-face {
-	font-family: 'potteryb';
-	src:url('../fonts/potteryb.ttf');
-    }
-
+/* Header & Nav Section */
 .main_title {
-    font-family: potteryb;
+    font-family: 'pottery_barnregular';
     }
 
 .fancy { 
