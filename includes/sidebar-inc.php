@@ -10,7 +10,7 @@
 			</ul>
 			
 			<h3>The Best of:</h3> 
-			<ul>
+			<ul class="social-icons">
 				<li><a href="#">Cats</a></li>
 				<li><a href="#">Cats 2</a></li>
 				<li><a href="#">Cats: The Return</a></li>
