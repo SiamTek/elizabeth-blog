@@ -2,7 +2,7 @@
 	Alacritous by Adam Sackfield (https://github.com/Sacki2013)
 	Licensed under the MIT License Copyright 2014 Adam Sackfield.
 */
-aside ul li {
+aside .social-icons li {
   display: inline; }
 
 /* Helper Classes */
@@ -224,30 +224,6 @@ a {
 .text-center {
   text-align: center; }
 
-/*  Animate Title class Keyframe rules --- Does not work yet. */
-@-webkit-keyframes AnimateTitle {
-  100% {
-    unicode-bidi: bidi-override;
-    direction: rtl; } }
-@-moz-keyframes AnimateTitle {
-  100% {
-    unicode-bidi: bidi-override;
-    direction: rtl; } }
-@-o-keyframes AnimateTitle {
-  100% {
-    unicode-bidi: bidi-override;
-    direction: rtl; } }
-@keyframes AnimateTitle {
-  100% {
-    unicode-bidi: bidi-override;
-    direction: rtl; } }
-.hgroup, .firstText {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
-
 .hgroup {
   display: block;
   margin: 20px 0; }
@@ -265,7 +241,7 @@ a {
 
 /* Aside Styles */
 aside {
-  text-align: center; }
+  text-align: inherit; }
   aside h3 {
     background: #81d8d0;
     margin: 20px 0 10px 0;
@@ -274,12 +250,15 @@ aside {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 1.625em;
-    color: rgba(0, 0, 0, 0.75); }
-  aside ul li {
-    font-size: 28px;
-    margin-right: 10px; }
-    aside ul li:last-child {
-      margin-right: 0; }
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center; }
+  aside .social-icons {
+    text-align: center; }
+    aside .social-icons li {
+      font-size: 28px;
+      margin-right: 10px; }
+      aside .social-icons li:last-child {
+        margin-right: 0; }
   aside img {
     display: block;
     width: 100%;

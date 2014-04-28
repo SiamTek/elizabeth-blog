@@ -146,43 +146,6 @@ a {
 }
 
 
-
-/*  Animate Title class Keyframe rules --- Does not work yet. */ 
-@-webkit-keyframes AnimateTitle {
-  0%   { }
-  100% { 
-		unicode-bidi:bidi-override;
-        direction:rtl;
-	}
-}
-@-moz-keyframes AnimateTitle {
-  0%   { }
-  100% { 
-		unicode-bidi:bidi-override;
-        direction:rtl;
-	}
-}
-@-o-keyframes AnimateTitle {
-  0%   { }
-  100% { 
-		unicode-bidi:bidi-override;
-        direction:rtl;
-	}
-}
-@keyframes AnimateTitle {
-  0%   { }
-  100% { 
-		unicode-bidi:bidi-override;
-        direction:rtl;
-	}
-}
-.hgroup, .firstText {   
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-ms-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;  }
-
 .hgroup {
 	display: block;
 	margin: 20px 0;
@@ -208,7 +171,7 @@ a {
 
 /* Aside Styles */
 aside {
-	text-align: center;
+	text-align: inherit;
 	h3 {
 		background: $primaryCol;
 		@include margin(20px, 0, 10px, 0);
@@ -218,12 +181,16 @@ aside {
 		text-transform: uppercase;
 		line-height: 1.625em;
 		color: rgba(0,0,0,0.75);
+		text-align: center;
 
 	}
-	ul li {
-		@extend %inlineList;
-		font-size: 28px;
-		@include marginRight(10px);
+	.social-icons {
+		text-align:center;
+		li {
+			@extend %inlineList;
+			font-size: 28px;
+			@include marginRight(10px);
+		}
 	}
 	img {
 		display: block;

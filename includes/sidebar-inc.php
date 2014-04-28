@@ -1,7 +1,7 @@
 
 	<aside class="col-sm-4">
 			<h3>Social Media</h3>
-			<ul>
+			<ul class="social-icons">
 				<li><a href="#" class="icon-facebook"></a></li>
 				<li><a href="#" class="icon-twitter"></a></li>
 				<li><a href="#" class="icon-pinterest"></a></li>
