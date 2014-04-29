@@ -1,12 +1,14 @@
-
 <html lang="en">
+
 <head>
 	<?php include 'includes/head-inc.php'; ?>
-	<title>Consistently | Inconsistent</title>
+    <title>Consistently | Inconsistent</title>
 </head>
-<body id="about">
-	<?php include 'includes/header-inc.php'; ?>
 
+<body id="about">
+    
+	<?php include 'includes/header-inc.php'; ?>
+    
     <div class="row">	
 		<section class="col-sm-8">
 			<article class="blog-post">

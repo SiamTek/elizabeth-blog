@@ -118,10 +118,6 @@ a {
 
 
 /* Header & Nav Section */
-.main_title {
-    font-family: 'pottery_barnregular';
-    }
-
 .fancy { 
 	@include borderText(); 
 	margin: 0 0 30px 0; 
@@ -145,8 +141,6 @@ a {
 	text-align: center;
 }
 
-
-
 .hgroup, .firstText {   
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
@@ -160,7 +154,7 @@ a {
 	h1 {
 		color: $primaryCol;
 		margin: 14px 0 8px 0;
-		font-family: 'Oswald', serif;
+		font-family: 'pottery_barnregular', serif;
 		font-weight: 400;
         font-size: 5em;
 	}

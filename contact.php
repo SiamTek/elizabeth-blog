@@ -17,7 +17,7 @@
 							<li>I love, love (seriously, I do)</li>
 							<li>I'm a HUGE fan of comedy</li>
 							<li>I'm pretty hard to offend, yep, come at me trolls!</li>
-							<li>I F*#@KING love my cat Henry, oh and my fiance, Seth...I guess :)</li>
+							<li>I F*#@KING love my cat Henry, oh and my fiance, Seth...I guess :P</li>
 						</ul>
 						<p>I can't wait to get you know you all of you out there, and again thanks for stopping by <a href="#">Consistently Inconsistent</a>!</p>
 						<p>xoxo</p>
