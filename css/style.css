@@ -71,7 +71,8 @@ body {
 
 .container {
   background: white;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 30px auto; }
 
 @media screen and (max-device-width: 480px) {
   .hideOnMobile {
