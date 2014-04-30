@@ -226,7 +226,7 @@ aside {
 		@include margin(10px, 0, 30px, 0);
 		display: inline-block;
 		
-		&:last-of-type {  /*  Perhaps we should move this rule to an easier-to-target CSS class  */
+		&.published {  /*  The time and date published on WP  */
 			float: right;
 			font-size: 16px;
 			background: darken($primaryCol, 20%);

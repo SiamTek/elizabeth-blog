@@ -284,8 +284,8 @@ aside {
   .blog-post h4 {
     margin: 10px 0 30px 0;
     display: inline-block; }
-    .blog-post h4:last-of-type {
-      /*  Perhaps we should move this rule to an easier-to-target CSS class  */
+    .blog-post h4.published {
+      /*  The time and date published on WP  */
       float: right;
       font-size: 16px;
       background: #39baae;
