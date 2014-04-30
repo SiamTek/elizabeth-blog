@@ -69,14 +69,29 @@ body {
   background: url("http://subtlepatterns.com/patterns/purty_wood.png");
   color: rgba(0, 0, 0, 0.8); }
 
+header {
+  background: #fff; }
+  @media only screen and (max-width: 735px) {
+    header {
+      width: 100%;
+      height: 130px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-bottom: 2px solid #474747;
+      z-index: 100; } }
+
+@media only screen and (max-width: 735px) {
+  section {
+    margin: 240px auto 40px;
+    max-width: 980px;
+    position: relative;
+    padding: 20px; } }
+
 .container {
   background: white;
   padding-bottom: 30px;
   margin: 30px auto; }
-
-@media screen and (max-device-width: 480px) {
-  .hideOnMobile {
-    display: none !important; } }
 
 h1, h2, h3, h4, h5, h6, p, span {
   line-height: 1.625em; }
@@ -147,6 +162,54 @@ a {
   content: "\e604"; }
 
 /* Header & Nav Section */
+#logo {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 87px;
+  background: url(../img/logo2_200x87.png) no-repeat center;
+  display: none; }
+  @media only screen and (max-width: 735px) {
+    #logo {
+      display: block; } }
+
+#menu-icon {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: #39baae url(../img/menu-icon.png) center;
+  float: right; }
+  @media only screen and (max-width: 735px) {
+    #menu-icon {
+      display: inline-block; } }
+
+a:hover#menu-icon {
+  background-color: #81d8d0;
+  border-radius: 4px 4px 0 0; }
+
+.mobile-nav {
+  display: none;
+  font-size: 20px;
+  float: right;
+  padding: 25px;
+  width: 300px;
+  background: white;
+  border: 3px solid gray;
+  border-radius: 1px; }
+  @media only screen and (max-width: 735px) {
+    .mobile-nav {
+      display: inline-block; } }
+  .mobile-nav ul {
+    list-style: none; }
+    .mobile-nav ul li a {
+      color: #39baae;
+      text-decoration: none;
+      font-weight: bold; }
+
+.current {
+  color: #292929;
+  /* CHANGE THIS COLOR */ }
+
 .fancy {
   margin: 0 0 30px 0;
   padding-bottom: 20px;
@@ -218,16 +281,12 @@ a {
   @media screen and (max-width: 768px) {
     .fancy {
       margin: 30px 0; } }
+  @media only screen and (max-width: 735px) {
+    .fancy {
+      display: none; } }
 
 .text-center {
   text-align: center; }
-
-.hgroup, .firstText {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
 
 .hgroup {
   display: block;
@@ -243,6 +302,9 @@ a {
   .hgroup h3 {
     margin: 0 0 20px 0;
     letter-spacing: 10px; }
+  @media only screen and (max-width: 735px) {
+    .hgroup {
+      display: none; } }
 
 /* Aside Styles */
 aside {
@@ -284,8 +346,8 @@ aside {
   .blog-post h4 {
     margin: 10px 0 30px 0;
     display: inline-block; }
-    .blog-post h4:last-of-type {
-      /*  Perhaps we should move this rule to an easier-to-target CSS class  */
+    .blog-post h4.published {
+      /*  The time and date published on WP  */
       float: right;
       font-size: 16px;
       background: #39baae;
