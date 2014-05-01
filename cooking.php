@@ -6,7 +6,7 @@
     <title>Consistently Inconsistent</title>
 </head>
 
-<body id="about">
+<body id="cooking">
     
 	<?php include 'includes/header.php'; ?>
     

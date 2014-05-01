@@ -29,9 +29,8 @@ body {
 	color: rgba(0,0,0,0.8);
 }
 header {
-
 	background: #fff;
-	@media only screen and (max-width: 735px) {
+	@media only screen and (max-width: 700px) {
 		width: 100%;
 		height: 130px;
 		position: fixed;
@@ -42,8 +41,8 @@ header {
 	}
 }
 section {
-	@media only screen and (max-width: 735px) {
-		margin: 240px auto 40px;
+	@media only screen and (max-width: 700px) {
+		margin: 115px auto 40px;
 		max-width: 980px;
 		position: relative;
 		padding: 20px;	
@@ -144,7 +143,7 @@ a {
 	height: 87px;
 	background: url(../img/logo2_200x87.png) no-repeat center;
 	display: none;	
-	@media only screen and (max-width: 735px) {
+	@media only screen and (max-width: 700px) {
 		display: block;
 	}
 	
@@ -155,43 +154,53 @@ a {
 	height: 40px;
 	background: #39baae url(../img/menu-icon.png) center;
 	float: right;
-	@media only screen and (max-width : 735px) {
+	z-index: 9999;
+	@media only screen and (max-width: 700px) {
 		display: inline-block;
 	}
 }
 a:hover#menu-icon {
 
-	background-color: #81d8d0;
+	background-color: $primaryCol;
 	border-radius: 4px 4px 0 0;
 
 }
-.mobile-nav {
+.mob-nav-bar {
 	display: none;
-	font-size: 20px;
-	float: right;
-	padding: 25px;
-	width: 300px;
-	background: white;
-	border: 3px solid gray;
-	border-radius: 1px;
-	@media only screen and (max-width : 735px) {
-		display: inline-block;
+	font-size: 26px;
+	font-family: 'pottery_barnregular'; 
+	right: 10px;
+	top: 30px;
+	padding: 20px;
+//	background: white;
+//	border: 3px solid gray;
+//	border-radius: 1px;
+	z-index: 300;
+	@media only screen and (max-width: 700px) {
+		display: block;
+		position: absolute;
 	}
-	ul {
-		list-style: none;
+	.mob-nav {
+		display: none;
+//		li {
+//			float: left; 
+//			padding: 10px;
+//		}
 		li a {
-			color: #39baae;
-			text-decoration: none;
-			font-weight: bold;
+//			font-weight: bold;
 		}
 	}
-//	ul, &:active ul {
-//		display: none;
-//		position: absolute;
-//		padding: 20px;
-//		right: 20px;
-//		top: 60px;		
-//	}
+	&:hover .mob-nav, &:active .mob-nav {
+		display: inherit;
+		position: absolute;
+		right: 20px;
+		top: 60px;
+		width: 250px;
+		padding: 20px;
+		background: #f7f7f7;
+		border: 3px solid #333;
+		z-index: 200;
+	}
 }
 
 .current {
@@ -215,7 +224,7 @@ a:hover#menu-icon {
 	@media screen and (max-width: 768px) {
 		margin: 30px 0;
 	}
-	@media only screen and (max-width : 735px) {
+	@media only screen and (max-width : 700px) {
 		display: none;
 	}
 	@media screen and (max-width: 480px) {		
@@ -246,7 +255,7 @@ a:hover#menu-icon {
 		margin: 0 0 20px 0;
 		letter-spacing: 10px;
 	}
-	@media only screen and (max-width: 735px) {
+	@media only screen and (max-width: 700px) {
 		display: none;
 	}
 }

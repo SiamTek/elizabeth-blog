@@ -1,5 +1,6 @@
 
 	<aside class="col-sm-4">
+	
 			<h3>Social Media</h3>
 			<ul class="social-icons">
 				<li><a href="#" class="icon-facebook"></a></li>
@@ -16,6 +17,6 @@
 				<li><a href="#">Cats: The Return</a></li>
 				<li><a href="#">My First Rant</a></li>
             </ol>
-         
+  
 	</aside>
 	

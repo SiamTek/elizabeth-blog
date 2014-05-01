@@ -71,7 +71,7 @@ body {
 
 header {
   background: #fff; }
-  @media only screen and (max-width: 735px) {
+  @media only screen and (max-width: 700px) {
     header {
       width: 100%;
       height: 130px;
@@ -81,9 +81,9 @@ header {
       border-bottom: 2px solid #474747;
       z-index: 100; } }
 
-@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 700px) {
   section {
-    margin: 240px auto 40px;
+    margin: 115px auto 40px;
     max-width: 980px;
     position: relative;
     padding: 20px; } }
@@ -169,7 +169,7 @@ a {
   height: 87px;
   background: url(../img/logo2_200x87.png) no-repeat center;
   display: none; }
-  @media only screen and (max-width: 735px) {
+  @media only screen and (max-width: 700px) {
     #logo {
       display: block; } }
 
@@ -178,8 +178,9 @@ a {
   width: 40px;
   height: 40px;
   background: #39baae url(../img/menu-icon.png) center;
-  float: right; }
-  @media only screen and (max-width: 735px) {
+  float: right;
+  z-index: 9999; }
+  @media only screen and (max-width: 700px) {
     #menu-icon {
       display: inline-block; } }
 
@@ -187,24 +188,30 @@ a:hover#menu-icon {
   background-color: #81d8d0;
   border-radius: 4px 4px 0 0; }
 
-.mobile-nav {
+.mob-nav-bar {
   display: none;
-  font-size: 20px;
-  float: right;
-  padding: 25px;
-  width: 300px;
-  background: white;
-  border: 3px solid gray;
-  border-radius: 1px; }
-  @media only screen and (max-width: 735px) {
-    .mobile-nav {
-      display: inline-block; } }
-  .mobile-nav ul {
-    list-style: none; }
-    .mobile-nav ul li a {
-      color: #39baae;
-      text-decoration: none;
-      font-weight: bold; }
+  font-size: 26px;
+  font-family: 'pottery_barnregular';
+  right: 10px;
+  top: 30px;
+  padding: 20px;
+  z-index: 300; }
+  @media only screen and (max-width: 700px) {
+    .mob-nav-bar {
+      display: block;
+      position: absolute; } }
+  .mob-nav-bar .mob-nav {
+    display: none; }
+  .mob-nav-bar:hover .mob-nav, .mob-nav-bar:active .mob-nav {
+    display: inherit;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    width: 250px;
+    padding: 20px;
+    background: #f7f7f7;
+    border: 3px solid #333;
+    z-index: 200; }
 
 .current {
   color: #292929;
@@ -281,7 +288,7 @@ a:hover#menu-icon {
   @media screen and (max-width: 768px) {
     .fancy {
       margin: 30px 0; } }
-  @media only screen and (max-width: 735px) {
+  @media only screen and (max-width: 700px) {
     .fancy {
       display: none; } }
 
@@ -302,7 +309,7 @@ a:hover#menu-icon {
   .hgroup h3 {
     margin: 0 0 20px 0;
     letter-spacing: 10px; }
-  @media only screen and (max-width: 735px) {
+  @media only screen and (max-width: 700px) {
     .hgroup {
       display: none; } }
 

@@ -4,7 +4,7 @@
 	<?php include 'includes/head-inc.php'; ?>
 	<title>Consistently Inconsistent | A Blog for Elizabeth Richter</title>
 </head>
-<body>
+<body class="about">
 	<?php include 'includes/header-inc.php'; ?>
 				
 		<div class="row">

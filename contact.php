@@ -4,7 +4,7 @@
 	<?php include 'includes/head-inc.php'; ?>
 	<title>Consistently | Inconsistent: Contact Page</title>
 </head>
-<body>
+<body id="contact">
 		<?php include 'includes/header-inc.php'; ?>
 		
 		<div class="row">
