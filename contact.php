@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<?php include 'includes/head-inc.php'; ?>
+	<?php include 'includes/head.php'; ?>
 	<title>Consistently | Inconsistent: Contact Page</title>
 </head>
 <body>
-		<?php include 'includes/header-inc.php'; ?>
+		<?php include 'includes/header.php'; ?>
 		
 		<div class="row">
 			<div class="col-sm-8">
@@ -37,12 +37,12 @@
 					</form>
 				</section>
 			</div>
-            <?php include 'includes/sidebar-inc.php'; ?>
+            <?php include 'includes/sidebar.php'; ?>
 		</div><!-- row close -->
 
 		
 
-		<?php include 'includes/foot-inc.php'; ?>
+		<?php include 'includes/foot.php'; ?>
 
 </body>
 </html>
