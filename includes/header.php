@@ -8,11 +8,12 @@
 		<nav class="mob-nav-bar">
 			<a href="#" id="menu-icon"></a>
 			<ul class="mob-nav">
-				<li><a href="#" class="current">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Work</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
+				<li class="<?php if ($section == "home") { echo "current"; } ?>"><a href="index.php">Home</a></li>
+				<li class="<?php if ($section == "cats") { echo "current"; } ?>" ><a href="cats.php">Cats</a></li>
+				<li class="<?php if ($section == "zen") { echo "current"; } ?>" ><a href="zen.php">Zen</a></li>
+				<li class="<?php if ($section == "rants") { echo "current"; } ?>" ><a href="rants.php">Rants</a></li>
+                <li class="<?php if ($section == "cooking") { echo "current"; } ?>" ><a href="cooking.php">Cooking</a></li>
+				<li class="<?php if ($section == "about") { echo "current"; } ?>" ><a href="about.php">About</a></li>
 			</ul>
 		</nav>
 			

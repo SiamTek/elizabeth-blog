@@ -5,7 +5,10 @@
 	<title>Consistently | Inconsistent: Contact Page</title>
 </head>
 <body id="contact">
-		<?php include 'includes/header-inc.php'; ?>
+
+		<?php 
+         $section = "contact";
+         include 'includes/header.php'; ?>
 		
 		<div class="row">
 			<div class="col-sm-8">

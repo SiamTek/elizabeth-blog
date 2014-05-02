@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 	line-height: 1.625em;
 }
 
-h1 { font-size: 60px; font-weight: 400;}
+h1 { font-size: 60px; font-weight: 200;}
 h2 { font-size: 32px; }
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
@@ -145,9 +145,9 @@ a {
 	display: none;	
 	@media only screen and (max-width: 700px) {
 		display: block;
-	}
-	
+	}	
 }
+
 #menu-icon {
 	display: none;
 	width: 40px;
@@ -159,12 +159,12 @@ a {
 		display: inline-block;
 	}
 }
-a:hover#menu-icon {
 
+a:hover#menu-icon {
 	background-color: $primaryCol;
 	border-radius: 4px 4px 0 0;
-
 }
+
 .mob-nav-bar {
 	display: none;
 	font-size: 26px;
@@ -190,7 +190,8 @@ a:hover#menu-icon {
 //			font-weight: bold;
 		}
 	}
-	&:hover .mob-nav, &:active .mob-nav {
+	&:hover .mob-nav, 
+    &:active .mob-nav {
 		display: inherit;
 		position: absolute;
 		right: 20px;
@@ -204,9 +205,7 @@ a:hover#menu-icon {
 }
 
 .current {
-
-	color: #292929;   /* CHANGE THIS COLOR */
-
+    color: #000;   /* CHANGE THIS COLOR */
 }
 
 .fancy { 
@@ -219,7 +218,7 @@ a:hover#menu-icon {
 		@extend %hoverPre; letter-spacing: 2px;
 	}
 	@media screen and (max-width: 992px) {
-		margin: 30px;
+		margin: -10px;
 	}
 	@media screen and (max-width: 768px) {
 		margin: 30px 0;
@@ -235,7 +234,6 @@ a:hover#menu-icon {
 	text-align: center;
 }
 
-
 .hgroup {
 	display: block;
 	margin: 20px 0;
@@ -243,7 +241,7 @@ a:hover#menu-icon {
 		color: $primaryCol;
 		margin: 14px 0 8px 0;
 		font-family: 'pottery_barnregular', serif;
-		font-weight: 400;
+		font-weight: 200;
         font-size: 5em;
 	}
     &:hover {
@@ -275,7 +273,6 @@ aside {
 		line-height: 1.625em;
 		color: rgba(0,0,0,0.75);
 		text-align: center;
-
 	}
 	.social-icons {
 		text-align: center;
@@ -312,7 +309,6 @@ aside {
 	h4 {
 		@include margin(10px, 0, 30px, 0);
 		display: inline-block;
-		
 		&.published {  /*  The time and date published on WP  */
 			float: right;
 			font-size: 16px;
@@ -333,7 +329,7 @@ aside {
 #about {
 	h3 {
 		margin: 10px 0;
-	}
+	    }
 	}
 	#aboutList li {
 		margin: 8px 0;
@@ -348,7 +344,6 @@ aside {
 		border: solid 2px $primaryCol;
 		h2 {
 			background: $primaryCol;
-			
 			line-height: 1.5em;
 			margin-bottom: 30px;
 		}
@@ -390,7 +385,7 @@ aside {
 
 /* Footer Styles */
 footer {
-	margin-top: 30px;
+	margin-top: 10px;
 	padding: 20px;
 	background: $primaryCol;
 	line-height: 1.625em;
@@ -413,4 +408,8 @@ footer {
 		color: darken($primaryCol, 25%);
 		}
 	}
+    @media only screen and (max-width: 700px) {
+       
+       
+    }
 }

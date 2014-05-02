@@ -8,7 +8,9 @@
 
 <body id="blog">
     
-	<?php include 'includes/header.php'; ?>
+	<?php 
+    $section = "about";
+    include 'includes/header.php'; ?>
     
     <div class="row">	
 		<section class="col-sm-8">
