@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<?php include 'includes/head-inc.php'; ?>
+	<?php include 'includes/head.php'; ?>
 	<title>Consistently | Inconsistent: Contact Page</title>
 </head>
 <body id="contact">
@@ -40,12 +40,12 @@
 					</form>
 				</section>
 			</div>
-            <?php include 'includes/sidebar-inc.php'; ?>
+            <?php include 'includes/sidebar.php'; ?>
 		</div><!-- row close -->
 
 		
 
-		<?php include 'includes/foot-inc.php'; ?>
+		<?php include 'includes/foot.php'; ?>
 
 </body>
 </html>
