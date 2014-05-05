@@ -33,13 +33,18 @@ body {
 }
 
 header {
-
 	background: #fff;
+<<<<<<< HEAD
 	
 	@media only screen and (max-width: 700px) {
 	
         background: $primaryCol;       
         box-shadow: 10px 10px 5px #888;	
+=======
+	@media only screen and (max-width: 700px) {
+        background: $primaryCol;       
+        box-shadow: 10px 10px 5px #888;
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 		width: 100%;
 		height: 100px;
 		position: fixed;
@@ -58,6 +63,7 @@ header {
 }
 
 section {
+<<<<<<< HEAD
 
 	@media only screen and (max-width: 700px) {
 	
@@ -72,6 +78,13 @@ section {
 	
 		margin: 115px auto 40px;
 		
+=======
+	@media only screen and (max-width: 700px) {
+		margin: 115px auto 40px;
+		max-width: 980px;
+		position: relative;
+		padding: 10px;	
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 	}
 }
 
@@ -89,7 +102,7 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 	
 }
 
-h1 { font-size: 60px; font-weight: 400;}
+h1 { font-size: 60px; font-weight: 200;}
 h2 { font-size: 32px; }
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
@@ -181,6 +194,7 @@ a {
 	height: 44px;
 	background: url(../img/whitelogo_bluebkgrnd_300x44.png) no-repeat center;
 	display: none;	
+<<<<<<< HEAD
 	
 	@media only screen and (max-width: 700px) {
 	
@@ -195,6 +209,11 @@ a {
 		background: url(../img/whitelogo2_bluebkgrnd_200x91.png) no-repeat center;
 		
 	}
+=======
+	@media only screen and (max-width: 700px) {
+		display: block;
+	}	
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 }
 
 #menu-icon {
@@ -205,20 +224,29 @@ a {
 	background: #39baae url(../img/menu-icon.png) center;
 	float: right;
 	z-index: 9999;
+<<<<<<< HEAD
 	
 	@media only screen and (max-width: 700px) {
 	
+=======
+	@media only screen and (max-width: 700px) {
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 		display: inline-block;
 		
 	}
 }
+<<<<<<< HEAD
 
 a:hover#menu-icon {
 
+=======
+
+a:hover#menu-icon {
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 	background-color: $primaryCol;
 	border-radius: 4px 4px 0 0;
-
 }
+<<<<<<< HEAD
 .mob-nav-bar {
 
 	display: none;
@@ -273,6 +301,50 @@ a:hover#menu-icon {
 
 	color: #000000;
 
+=======
+
+.mob-nav-bar {
+	display: none;
+	font-size: 26px;
+	font-family: 'pottery_barnregular'; 
+	right: 10px;
+	top: 30px;
+	padding: 20px;
+//	background: white;
+//	border: 3px solid gray;
+//	border-radius: 1px;
+	z-index: 300;
+	@media only screen and (max-width: 700px) {
+		display: block;
+		position: absolute;
+	}
+	.mob-nav {
+		display: none;
+//		li {
+//			float: left; 
+//			padding: 10px;
+//		}
+		li a {
+//			font-weight: bold;
+		}
+	}
+	&:hover .mob-nav, 
+    &:active .mob-nav {
+		display: inherit;
+		position: absolute;
+		right: 20px;
+		top: 60px;
+		width: 250px;
+		padding: 20px;
+		background: #f7f7f7;
+		border: 3px solid #333;
+		z-index: 200;
+	}
+}
+
+.current a {
+    color: #000;   /* CHANGE THIS COLOR */
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 }
 
 .fancy { 
@@ -296,6 +368,7 @@ a:hover#menu-icon {
 	}
 	
 	@media screen and (max-width: 768px) {
+<<<<<<< HEAD
 	
 		margin: 30px 0;
 
@@ -303,11 +376,22 @@ a:hover#menu-icon {
 	
 	@media only screen and (max-width : 700px) {
 	
+=======
+		margin: 30px;
+	}
+	@media only screen and (max-width : 700px) {
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 		display: none;
 		
 	}
 } 
 
+<<<<<<< HEAD
+=======
+.text-center {
+	text-align: center;
+}
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 
 .hgroup {
 
@@ -322,7 +406,7 @@ a:hover#menu-icon {
 		background-repeat: no-repeat;
 		margin: 14px 0 8px 0;
 		font-family: 'pottery_barnregular', serif;
-		font-weight: 400;
+		font-weight: 200;
         font-size: 5em;
 		
 		@media only screen and (max-width: 991px) {
@@ -344,9 +428,13 @@ a:hover#menu-icon {
 		letter-spacing: 10px;
 		
 	}
+<<<<<<< HEAD
 	
 	@media only screen and (max-width: 700px) {
 	
+=======
+	@media only screen and (max-width: 700px) {
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 		display: none;
 		
 	}
@@ -382,7 +470,6 @@ aside {
 		line-height: 1.625em;
 		color: rgba(0,0,0,0.75);
 		text-align: center;
-
 	}
 	
 	.social-icons {
@@ -436,7 +523,6 @@ aside {
 	
 		@include margin(10px, 0, 30px, 0);
 		display: inline-block;
-		
 		&.published {  /*  The time and date published on WP  */
 		
 			float: right;
@@ -465,9 +551,14 @@ aside {
 	h3 {
 	
 		margin: 10px 0;
+<<<<<<< HEAD
 		
 	}
 	
+=======
+	    }
+	}
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 	#aboutList li {
 	
 		margin: 8px 0;
@@ -549,12 +640,16 @@ aside {
 /* Footer Styles */
 
 footer {
+<<<<<<< HEAD
 
 	margin-top: 30px;
+=======
+	margin-top: 10px;
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 	padding: 20px;
 	background: $primaryCol;
 	line-height: 1.625em;
-	box-shadow: 5px 5px 5px #000;
+	box-shadow: 5px 5px 5px #888;
 	color: rgba(0,0,0,0.75);
 	
 	ul li {
@@ -615,4 +710,10 @@ footer {
 		
 		}
 	}
+    /*Hid navigation bar in mobile view as it is redundant with drop down menu at top. Need to center the copyright*/
+    @media only screen and (max-width: 700px) {
+        .foot-menu {
+            display: none;
+        }
+    }
 }

@@ -88,6 +88,7 @@ header {
 
 @media only screen and (max-width: 700px) {
   section {
+<<<<<<< HEAD
     margin: 90px auto 40px;
     max-width: 980px;
     position: relative;
@@ -95,6 +96,12 @@ header {
 @media only screen and (max-width: 435px) {
   section {
     margin: 115px auto 40px; } }
+=======
+    margin: 115px auto 40px;
+    max-width: 980px;
+    position: relative;
+    padding: 10px; } }
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 
 .container {
   background: white;
@@ -106,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 
 h1 {
   font-size: 60px;
-  font-weight: 400; }
+  font-weight: 200; }
 
 h2 {
   font-size: 32px; }
@@ -207,20 +214,30 @@ a:hover#menu-icon {
 
 .mob-nav-bar {
   display: none;
+<<<<<<< HEAD
   font-size: 32px;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   right: 10px;
   top: 0;
+=======
+  font-size: 26px;
+  font-family: 'pottery_barnregular';
+  right: 10px;
+  top: 30px;
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
   padding: 20px;
   z-index: 300; }
   @media only screen and (max-width: 700px) {
     .mob-nav-bar {
       display: block;
       position: absolute; } }
+<<<<<<< HEAD
   @media only screen and (max-width: 435px) {
     .mob-nav-bar {
       top: 25px;
       font-size: 26px; } }
+=======
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
   .mob-nav-bar .mob-nav {
     display: none; }
   .mob-nav-bar:hover .mob-nav, .mob-nav-bar:active .mob-nav {
@@ -228,17 +245,28 @@ a:hover#menu-icon {
     position: absolute;
     right: 20px;
     top: 60px;
+<<<<<<< HEAD
     width: 350px;
+=======
+    width: 250px;
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
     padding: 20px;
     background: #f7f7f7;
     border: 3px solid #333;
     z-index: 200; }
+<<<<<<< HEAD
     @media screen and (max-width: 435px) {
       .mob-nav-bar:hover .mob-nav, .mob-nav-bar:active .mob-nav {
         width: 250px; } }
 
 .current {
   color: #000000; }
+=======
+
+.current a {
+  color: #000;
+  /* CHANGE THIS COLOR */ }
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 
 .fancy {
   margin: 0 0 30px 0;
@@ -310,7 +338,11 @@ a:hover#menu-icon {
       margin: 30px; } }
   @media screen and (max-width: 768px) {
     .fancy {
+<<<<<<< HEAD
       margin: 30px 0; } }
+=======
+      margin: 30px; } }
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
   @media only screen and (max-width: 700px) {
     .fancy {
       display: none; } }
@@ -325,7 +357,7 @@ a:hover#menu-icon {
     background-repeat: no-repeat;
     margin: 14px 0 8px 0;
     font-family: 'pottery_barnregular', serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 5em; }
     @media only screen and (max-width: 991px) {
       .hgroup h1 {
@@ -439,11 +471,15 @@ aside {
 
 /* Footer Styles */
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 20px;
   background: #81d8d0;
   line-height: 1.625em;
+<<<<<<< HEAD
   box-shadow: 5px 5px 5px #000;
+=======
+  box-shadow: 5px 5px 5px #888;
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
   color: rgba(0, 0, 0, 0.75);
   /*Hid navigation bar in mobile view as it is redundant with drop down menu at top. Need to center the copyright*/ }
   footer ul li {
@@ -463,6 +499,7 @@ footer {
     footer a:hover {
       color: #33a69c; }
   @media only screen and (max-width: 700px) {
+<<<<<<< HEAD
     footer {
       /*  NEED TO FIX THIS FOOTER */
       /*  NEED TO FIX THIS FOOTER */
@@ -480,3 +517,7 @@ footer {
       footer .back-to-top {
         width: 50%;
         float: right; } }
+=======
+    footer .foot-menu {
+      display: none; } }
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4

@@ -8,7 +8,9 @@
 
 <body id="cats">
     
-	<?php include 'includes/header.php'; ?>
+	<?php 
+    $section = "cats";
+    include 'includes/header.php'; ?>
     
     <div class="row">	
 		<section class="col-sm-8">

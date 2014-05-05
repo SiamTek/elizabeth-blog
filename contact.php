@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<?php include 'includes/head-inc.php'; ?>
+	<?php include 'includes/head.php'; ?>
 	<title>Consistently | Inconsistent: Contact Page</title>
 </head>
 <body id="contact">
 
 		<?php 
+<<<<<<< HEAD
 		$section = "contact";
 		include 'includes/header-inc.php'; ?>
+=======
+         $section = "contact";
+         include 'includes/header.php'; ?>
+>>>>>>> cb94d3426def365aaeb49bfabe521f95d05856e4
 		
 		<div class="row">
 			<div class="col-sm-8">
@@ -40,12 +45,12 @@
 					</form>
 				</section>
 			</div>
-            <?php include 'includes/sidebar-inc.php'; ?>
+            <?php include 'includes/sidebar.php'; ?>
 		</div><!-- row close -->
 
 		
 
-		<?php include 'includes/foot-inc.php'; ?>
+		<?php include 'includes/foot.php'; ?>
 
 </body>
 </html>

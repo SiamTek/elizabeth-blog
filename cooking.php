@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
-	<?php include 'includes/head.php'; ?>
+	<?php 
+    
+    include 'includes/head.php'; ?>
     <title>Consistently Inconsistent</title>
 </head>
 
 <body id="cooking">
     
-	<?php include 'includes/header.php'; ?>
+	<?php 
+    $section = "cooking";
+    include 'includes/header.php'; ?>
     
     <div class="row">	
 		<section class="col-sm-8">
