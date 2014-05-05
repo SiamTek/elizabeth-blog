@@ -4,8 +4,10 @@
 	<?php include 'includes/head-inc.php'; ?>
 	<title>Consistently Inconsistent | A Blog for Elizabeth Richter</title>
 </head>
-<body>
-	<?php include 'includes/header-inc.php'; ?>
+<body id="about">
+	<?php 
+	$section - "about";
+	include 'includes/header-inc.php'; ?>
 				
 		<div class="row">
 			<section id="about" class="col-sm-8">

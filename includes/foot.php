@@ -1,6 +1,6 @@
 <footer class="text-center">
 	<div class="row">
-		<section class="col-sm-4">
+		<section class="col-sm-4 foot-menu">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">Inspiration</a></li>
@@ -9,13 +9,13 @@
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</section>
-		<section class="col-sm-4">
+		<section class="col-sm-4 copyright">
 			<h4>&copy; <?php echo date('Y'); ?> Design by <a href="http://siamtek.com" title="Siam Tek: Technology, Entrepreneurship & Business" target="_blank">Siam Tek</a>.</h4>
 		</section>
-		<section class="col-sm-4">
+		<section class="col-sm-4 back-to-top">
 			Back to top Icon
 		</section>
-	</div><!-- row close -->
+	</div><!
 </footer>
 </div><!-- container close -->
 

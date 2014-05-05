@@ -6,9 +6,11 @@
     <title>Consistently Inconsistent</title>
 </head>
 
-<body id="about">
+<body id="blog">
     
-	<?php include 'includes/header.php'; ?>
+	<?php 
+	$section = "blog";
+	include 'includes/header.php'; ?>
     
     <div class="row">	
 		<section class="col-sm-8">
