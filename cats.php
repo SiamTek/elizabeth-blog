@@ -6,7 +6,11 @@
     <title>Consistently Inconsistent</title>
 </head>
 
+<<<<<<< HEAD
 <body id="about">
+=======
+<body id="cats">
+>>>>>>> refs/heads/newNav2
     
 	<?php include 'includes/header.php'; ?>
     

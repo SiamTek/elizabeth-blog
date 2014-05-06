@@ -6,9 +6,17 @@
     <title>Consistently Inconsistent</title>
 </head>
 
+<<<<<<< HEAD
 <body id="about">
     
 	<?php include 'includes/header.php'; ?>
+=======
+<body id="blog">
+    
+	<?php 
+	$section = "blog";
+	include 'includes/header.php'; ?>
+>>>>>>> refs/heads/newNav2
     
     <div class="row">	
 		<section class="col-sm-8">
