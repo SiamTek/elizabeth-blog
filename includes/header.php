@@ -2,7 +2,7 @@
 <div class="container">
 	<header>
 		<div class="hgroup text-center">
-			<a href="index.php" class="main-title"><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
+			<a href="index.php" class="main-title"><h1 class="site-title">Consistently&nbsp;Inconsistent</h1></a>
 		</div>
 		<a href="#" id="logo"></a>
 		<nav class="mob-nav-bar">

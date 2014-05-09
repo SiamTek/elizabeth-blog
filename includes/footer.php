@@ -21,7 +21,7 @@
 	</div><!-- ROW CLOSE -->
 
 </footer>
-</div><!-- CONTAINER CLOSE -->
+</div><!-- container close -->
 
 	<script src="js/lib/jquery.1.10.2.js"></script>
 	<script>
