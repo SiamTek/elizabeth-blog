@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
+
 	<?php include 'includes/head.php'; ?>
-    <title>Consistently Inconsistent</title>
+
 </head>
 
 <body id="index">
