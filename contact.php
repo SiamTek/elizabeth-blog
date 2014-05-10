@@ -7,11 +7,11 @@
 
 <body id="contact">
 
-		<?php 
-		$section = "contact";
-		include 'includes/header.php'; ?>
+	<?php 
+	$section = "contact";
+	include 'includes/header.php'; ?>
 
-		<div class="row">
+        <div class="row">
 			<div class="col-sm-8">
 				<section class="text-center">
 				<h3 class="text-center">About Me</h3>
@@ -40,13 +40,11 @@
 									<input type="submit" value="Send Message">
 					</form>
 				</section>
-			</div>
+            </div>
             <?php include 'includes/sidebar.php'; ?>
 		</div><!-- row close -->
 
-		
-
-		<?php include 'includes/foot.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

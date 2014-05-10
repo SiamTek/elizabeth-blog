@@ -13,7 +13,7 @@
 				<li class="<?php if ($section == "yoga") { echo "current"; } ?>" ><a href="yoga.php">Yoga</a></li>
 				<li class="<?php if ($section == "cooking") { echo "current"; } ?>" ><a href="cooking.php">Cooking</a></li>
                 <li class="<?php if ($section == "cats") { echo "current"; } ?>" ><a href="cats.php">Kittens</a></li>
-				<li class="<?php if ($section == "about") { echo "current"; } ?>" ><a href="about.php">Contact Me</a></li>
+				<li class="<?php if ($section == "contact") { echo "current"; } ?>" ><a href="contact.php">Contact Me</a></li>
 			</ul>
 		</nav>
 			

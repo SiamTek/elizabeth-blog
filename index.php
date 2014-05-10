@@ -7,8 +7,7 @@
 </head>
 
 <body id="index">
-    
-
+   
 	<?php 
     $section = "home";
     include 'includes/header.php'; ?>
@@ -41,7 +40,7 @@
 
         <?php include 'includes/sidebar.php'; ?>
     </div>
-		<?php include 'includes/foot.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

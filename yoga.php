@@ -34,7 +34,7 @@
 
         <?php include 'includes/sidebar.php'; ?>
     </div>
-		<?php include 'includes/foot.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

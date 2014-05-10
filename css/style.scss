@@ -23,13 +23,11 @@ $linkColor: #39baae;
 *, *::before, *::after { @include boxSizing(border-box); }
 
 body { 
-
 	font-size: 16px; 
 	font-family: 'Lora',serif;
 	line-height: 1.625em;
 	background: url('http://subtlepatterns.com/patterns/purty_wood.png'); 
 	color: rgba(0,0,0,0.8);
-	
 }
 
 header {
@@ -37,8 +35,7 @@ header {
 	background: #fff;
 	
 	@media only screen and (max-width: 700px) {
-	
-        background: $primaryCol;       
+        background: $primaryCol;
         box-shadow: 10px 10px 5px #888;	
 		width: 100%;
 		height: 100px;
@@ -47,46 +44,35 @@ header {
 		left: 0;
 		border-bottom: 2px solid #474747;
 		z-index: 100;
-		
 	}
-	
+
 	@media only screen and (max-width: 435px) {
-	
 		height: 130px;
-		
 	}
 }
 
 section {
 
 	@media only screen and (max-width: 700px) {
-	
 		margin: 90px auto 40px;
 		max-width: 980px;
 		position: relative;
 		padding: 20px;	
-		
 	}
 	
 	@media only screen and (max-width: 435px) {
-	
 		margin: 115px auto 40px;
-		
 	}
 }
 
 .container { 
-
     background: white; 
     padding-bottom: 30px; 
     margin: 30px auto;
-	
 }
 
 h1, h2, h3, h4, h5, h6, p, a, span {
-
 	line-height: 1.625em;
-	
 }
 
 h1 { font-size: 60px; font-weight: 400;}
@@ -95,43 +81,38 @@ h3 { font-size: 24px; }
 h4 { font-size: 20px; }
 
 a { 
-
 	text-decoration: none; 
 	color: darken($primaryCol, 20%);
+
 	@include transition(color .4s ease);
-	
 	&:hover {
-	
 		color: darken($primaryCol, 5%);
-		
 	}
 }
 
 .text-center {
-
 	text-align: center;
-	
 }
+
 
 
 /*Custom Fonts*/
 
 @font-face {
-
 	font-family: 'icomoon';
+
 	src:url('../fonts/icomoon.eot?4x0l5l');
 	src:url('../fonts/icomoon.eot?#iefix4x0l5l') format('embedded-opentype'),
 		url('../fonts/icomoon.woff?4x0l5l') format('woff'),
 		url('../fonts/icomoon.ttf?4x0l5l') format('truetype'),
 		url('../fonts/icomoon.svg?4x0l5l#icomoon') format('svg');
 	font-weight: normal;
-	font-style: normal;
-	
+	font-style: normal;	
 }
 
 @font-face {
-
     font-family: 'pottery_barnregular';
+
     src: url('../fonts/potteryb-webfont.eot');    
     src: url('../fonts/potteryb-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/potteryb-webfont.woff') format('woff'),        
@@ -139,7 +120,6 @@ a {
          url('../fonts/potteryb-webfont.svg#pottery_barnregular') format('svg');   
     font-weight: normal;   
     font-style: normal;
-	
 }
 
 
@@ -183,17 +163,13 @@ a {
 	display: none;	
 	
 	@media only screen and (max-width: 700px) {
-	
 		display: block;
-		
 	}
 	
 	@media screen and (max-width: 435px) {
-	
 		width: 200px;
 		height: 91px;
 		background: url(../img/whitelogo2_bluebkgrnd_200x91.png) no-repeat center;
-		
 	}
 }
 
@@ -207,18 +183,15 @@ a {
 	z-index: 9999;
 	
 	@media only screen and (max-width: 700px) {
-	
 		display: inline-block;
-		
 	}
 }
 
 a:hover#menu-icon {
-
 	background-color: $primaryCol;
 	border-radius: 4px 4px 0 0;
-
 }
+
 .mob-nav-bar {
 
 	display: none;
@@ -230,23 +203,17 @@ a:hover#menu-icon {
 	z-index: 300;
 	
 	@media only screen and (max-width: 700px) {
-	
 		display: block;
-		position: absolute;
-		
+		position: absolute;	
 	}
 	
 	@media only screen and (max-width: 435px) {
-	
 		top: 25px;
 		font-size: 26px;
-	
 	}
 	
 	.mob-nav {
-	
 		display: none;
-	
 	}
 	
 	&:hover .mob-nav, 
@@ -264,15 +231,12 @@ a:hover#menu-icon {
 		
 		@media screen and (max-width: 435px) {
 			width: 250px;
-
 		}
 	}
 }
 
-.current {
-
-	color: #000000;
-
+.current a {
+	color: #000;
 }
 
 .fancy { 
@@ -285,26 +249,19 @@ a:hover#menu-icon {
 	
 	a { 
 	
-		@extend %hoverPre; letter-spacing: 2px;
-		
+		@extend %hoverPre; letter-spacing: 2px;	
 	}
 	
 	@media screen and (max-width: 992px) {
-	
-		margin: 30px;
-		
+		margin: 30px;	
 	}
 	
 	@media screen and (max-width: 768px) {
-	
 		margin: 30px 0;
-
 	}
 	
 	@media only screen and (max-width : 700px) {
-	
 		display: none;
-		
 	}
 } 
 
@@ -326,42 +283,23 @@ a:hover#menu-icon {
         font-size: 5em;
 		
 		@media only screen and (max-width: 991px) {
-		
 			font-size: 4em;
-			
 		}
 	}
 	
     &:hover {
-	
         opacity: .7;
-
     }
 	
 	h3 {
-	
 		margin: 0 0 20px 0;
 		letter-spacing: 10px;
-		
 	}
 	
 	@media only screen and (max-width: 700px) {
-	
-		display: none;
-		
+		display: none;		
 	}
 }
-
-//	.main-title {
-//		color: white;
-//		background: $primaryCol;
-//		&:hover { 
-//			color: gray;
-//		}
-//		.site-title {
-//	
-//		}
-//	}
 
 
 
@@ -409,9 +347,7 @@ aside {
 		color: rgba(0,0,0,0.7);
 		
 		&:hover {
-		
 			color: $primaryCol;
-			
 		}
 	}
 }
@@ -459,30 +395,20 @@ aside {
 
 
 /* About Page Styles */
-
 #about {
-
 	h3 {
-	
 		margin: 10px 0;
-		
 	}
-	
 	#aboutList li {
-	
 		margin: 8px 0;
 		text-align: left;
-		
 	}
 }
 
 
 
-
 /* Contact Page Styles */
-
 #contact {
-
 	form {
 	
 		border: solid 2px $primaryCol;
@@ -558,62 +484,44 @@ footer {
 	color: rgba(0,0,0,0.75);
 	
 	ul li {
-	
 			display: inline;
-			
-			&:after {
-			
-				content: ' / ';
-				
+			&:after {	
+				content: ' / ';	
 			}
 	}
 	
 	li:last-child:after {
-	
-		content: '';
-		
+		content: "";	
 	}
 	
 	a { 
-	
 	text-decoration: none; 
 	color: rgba(0,0,0,0.65);
+
 	@include transition(color .4s ease);
-	
 	&:hover {
-	
 		color: darken($primaryCol, 25%);
-		
+
 		}
 	}
 	
 /*Hid navigation bar in mobile view as it is redundant with drop down menu at top. Need to center the copyright*/
 	@media only screen and (max-width: 700px) {
-	
-	/*  NEED TO FIX THIS FOOTER */	/*  NEED TO FIX THIS FOOTER */	/*  NEED TO FIX THIS FOOTER */	/*  NEED TO FIX THIS FOOTER */	/*  NEED TO FIX THIS FOOTER */	/*  NEED TO FIX THIS FOOTER */
-	
-		padding: 10px;
-		
+
 		.foot-menu {
-		
 			display: none;
-		
 		}
 		
 		.copyright {
-			
 			width: 50%;
 			float: left;
-			margin: 20px auto 20px;
-			
+			margin: 1px auto 
 		}
 		
 		.back-to-top {
-		
 			width: 50%;
 			float: right;
 			margin: 20px auto 20px;
-		
 		}
 	}
 }

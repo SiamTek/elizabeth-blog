@@ -9,7 +9,9 @@
 
 <body id="cooking">
     
-	<?php include 'includes/header.php'; ?>
+	<?php 
+	$section = "cooking";
+	include 'includes/header.php'; ?>
     
     <div class="row">	
 		<section class="col-sm-8">
@@ -33,7 +35,7 @@
 
         <?php include 'includes/sidebar.php'; ?>
     </div>
-		<?php include 'includes/foot.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>
