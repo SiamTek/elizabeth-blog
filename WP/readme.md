@@ -8,6 +8,7 @@
 
 4.  We need to use the `wp_{function}` functions, hooks, etc.  
 Examples of hooks: 
+
 + `wp_head()`
 + `wp_footer()`
 + `wp_meta()`
