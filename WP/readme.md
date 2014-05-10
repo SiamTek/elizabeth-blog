@@ -16,6 +16,7 @@ Examples of hooks:
 + `comment_form()`
 
 Examples of [classes/functions](http://codex.wordpress.org/Theme_Development#Template_File_Checklist)
+
 + `body_class()`
 + `post_class()`
 + `comment_class()`
