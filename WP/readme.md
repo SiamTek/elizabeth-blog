@@ -6,13 +6,15 @@
 
 3. We need to follow a tutorial (or several) to turn HTML into a WordPress Theme. Basic tutorials will make it usable by WP, but the content shown will be uneditable.  Better tutorials will make it so the content can be completely changed, updated, or replaced through the WP UI.
 
-4.  We need to use the `wp_{function}` functions, hooks, etc.  
+4.  We need to use the `wp_{function}` functions, hooks, etc. 
+ 
 Examples of hooks: 
 
 + `wp_head()`
 + `wp_footer()`
 + `wp_meta()`
 + `comment_form()`
+
 Examples of [classes/functions](http://codex.wordpress.org/Theme_Development#Template_File_Checklist)
 + `body_class()`
 + `post_class()`
