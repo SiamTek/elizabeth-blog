@@ -1,0 +1,23 @@
+/* Helper Classes */
+.right {
+  float: right !important;
+}
+.left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.fixed {
+  position: fixed;
+}

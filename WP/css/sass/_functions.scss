@@ -1,0 +1,11 @@
+// Convert PX to EM. Base font size is always 16px.
+@function em($target) {
+	@return ($target/16)+0em;
+}
+
+// Converts target size to % of its container
+@function percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
+
+

@@ -1,8 +1,6 @@
 
 	<?php get_header(); ?>
 
-	<?php include 'inc/header.php'; ?>
-
 <!-- Content -->
 
 	<?php if ( have_posts() ) : ?>
@@ -30,8 +28,7 @@
 	  </div><!--end navigation-->
 	<?php else : ?>
 	<?php endif; ?>
-
-
+	
 <!-- End Content -->
 
 	<?php get_sidebar(); ?>

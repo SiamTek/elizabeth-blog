@@ -1,0 +1,99 @@
+// Choose 1 value for equal padding or specity TOP RIGHT BOTTOM LEFT
+@mixin padding($a, $b: $a, $c: $a, $d: $a) {
+	padding: $a $b $c $d;
+}
+
+// Choose 1 value for equal margin or specity TOP RIGHT BOTTOM LEFT
+@mixin margin($a, $b: $a, $c: $a, $d: $a) {
+	margin: $a $b $c $d;
+}
+
+// Simple mixin for opacity change on hover
+@mixin opacity($a, $b) {
+	opacity: $a;
+	&:hover {
+		opacity: $b;
+	}
+}
+
+// Set property, duration and timing function in a string. Second string optional for delay defualt 0
+@mixin transition($a, $b: 0) {
+	-webkit-transition: $a $b;
+	-moz-transition: $a $b;
+	-ms-transition: $a $b;
+	-o-transition: $a $b;
+	transition: $a $b;
+}
+
+// Example @include transform(scale(1.2,1.2)); 
+@mixin transform($a) {
+	-webkit-transform: $a;
+	-moz-transform: $a;
+	-ms-transform: $a;
+	-o-transform: $a;
+	transform: $a;
+}
+
+// Example @include boxShad(2px 2px 6px, red); 
+@mixin boxShad($a, $b: black) {
+	-webkit-box-shadow: $a $b;
+	-moz-box-shadow: $a $b;
+	box-shadow: $a $b;
+}
+
+// Example @include boxSizing(border-box); 
+@mixin boxSizing($a) {
+  -webkit-box-sizing: $a; 
+     -moz-box-sizing: $a; 
+          box-sizing: $a;
+}
+
+// Example @include position(relative, 0, 10px); 
+@mixin position($a: absolute, $b: auto, $c: auto, $d: auto, $e: auto) {
+	position: $a;
+	top: $b;
+	right: $c;
+	bottom: $d;
+	left: $e;
+}
+
+// Example @include linkColorL(#494949, 40%); 
+@mixin linkColorL($a, $b: 20%) {
+	color: $a;
+	&:hover {
+		color: lighten($a, $b);
+	}
+}
+
+// Example @include linkColorD(#494949, 40%); 
+@mixin linkColorD($a, $b: 20%) {
+	color: $a;
+	&:hover {
+		color: darken($a, $b);
+	}
+}
+
+// Set margin right and sets last-child to 0;
+@mixin marginRight($a) {
+	margin-right: $a;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
