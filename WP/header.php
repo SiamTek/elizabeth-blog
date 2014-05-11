@@ -16,7 +16,7 @@
 	<!-- CSS SYLESHEETS BEGIN -->
 		<link rel="stylesheet" href="css/reset.css" media="screen">
 		<link rel="stylesheet" href="css/grid.css" media="screen">
-		<link rel="stylesheet" href="css/style.css" media="screen">
+		<link rel="stylesheet" href="style.css" media="screen">
 	<!-- CSS STYLESHEETS END -->
 		
 	<!-- META BEGIN -->
