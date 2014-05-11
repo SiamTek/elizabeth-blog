@@ -27,6 +27,11 @@ Examples of [classes/functions](http://codex.wordpress.org/Theme_Development#Tem
 + `wp_link_pages()`
 
  These, and more, will make the content WP UI editable by lay-users, add functionality and ease of use.
+ 
+## TEST WP THEME WEBSITE
+---
+
+I created a ["Consistently Inconsistent" Test Blog](siamllc.com/test) to test the styles and layout etc. email or text me for a back-end password.
 
 
 ##RESOURCES
