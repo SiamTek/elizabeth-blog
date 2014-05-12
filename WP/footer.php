@@ -23,7 +23,7 @@
 </footer>
 </div><!-- CONTAINER CLOSE -->
 
-	<script src="js/lib/jquery.1.10.2.js"></script>
+	<script src="<?php bloginfo( 'template_url' ); ?>/js/lib/jquery.1.10.2.js"></script>
 	<script>
 		window.onload = function() {
 			if (window.jQuery) {  

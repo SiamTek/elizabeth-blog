@@ -4,24 +4,9 @@
 <!-- BEGIN HEAD -->
 <head>
 
-	<!--[if lt IE 9]> <script src="js/lib/html5shiv.js"></script> <![endif]-->
-		
-	<!-- FONTS BEGIN -->
-		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<!-- FONTS END -->
-
-	<!-- CSS SYLESHEETS BEGIN -->
-		<link rel="stylesheet" href="css/reset.css" media="screen">
-		<link rel="stylesheet" href="css/grid.css" media="screen">
-		<link rel="stylesheet" href="style.css" media="screen">
-	<!-- CSS STYLESHEETS END -->
-		
-	<!-- META BEGIN -->
+    <!-- META BEGIN -->
 		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="keywords" content="">
 		<meta name="author" content="">
 		<meta name="copyright" content="" />
@@ -31,6 +16,19 @@
 		<meta name="ICBM" content="" />
 		<meta charset="UTF-8">
 	<!-- META END -->
+
+	<!--[if lt IE 9]> <script src="<?php bloginfo( 'template_url' ); ?>/js/lib/html5shiv.js"></script> <![endif]-->
+		
+	<!-- FONTS BEGIN -->
+		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'> -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<!-- FONTS END -->
+
+	<!-- CSS SYLESHEETS BEGIN -->
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+	<!-- CSS STYLESHEETS END -->
 
 	<!-- SITE SPECIFIC BEGIN-->		
 		<title><?php bloginfo( 'name' ); ?></title>
@@ -45,7 +43,12 @@
 <div class="container"><!-- BEGIN CONTAINER -->
 	<header>
 		<div class="hgroup text-center">
-			<a href="index.php" class="main-title"><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
+			<a href="index.php" class="main-title">
+				<h1 class="site-title">
+					<?php bloginfo( 'name' ); ?>
+				</h1>
+			</a>
+			<h5><?php bloginfo( 'description' ); ?></h5>
 		</div>
 		<a href="#" id="logo"></a>
 		<nav class="mob-nav-bar">
@@ -69,3 +72,5 @@
 		</nav>
 	</header>
 	
+<!-- CONTENT -->
+<div class="row">
