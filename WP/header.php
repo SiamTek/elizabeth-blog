@@ -5,6 +5,7 @@
 <head>
 
     <!-- META BEGIN -->
+		<meta charset="UTF-8">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="keywords" content="">
@@ -14,7 +15,6 @@
 		<meta name="geo.placename" content="" />
 		<meta name="geo.position" content="" />
 		<meta name="ICBM" content="" />
-		<meta charset="UTF-8">
 	<!-- META END -->
 
 	<!--[if lt IE 9]> <script src="<?php bloginfo( 'template_url' ); ?>/js/lib/html5shiv.js"></script> <![endif]-->
