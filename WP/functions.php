@@ -7,7 +7,7 @@
 function arphabet_widgets_init() {
 
 	register_sidebar( array(
-		'name' =>__( 'Home right sidebar' ),
+		'name' =>__( 'Home Right Sidebar' ),
 		'id' => 'home_right_1',
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',
