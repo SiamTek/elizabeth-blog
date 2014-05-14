@@ -389,7 +389,6 @@ aside {
   .blog-post .post-header h4.published {
     /*  The time and date published on WP  */
     float: right;
-    width: 100%;
     font-size: 16px;
     background: #39baae;
     color: white;
