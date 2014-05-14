@@ -376,16 +376,17 @@ aside {
       color: #81d8d0; }
 
 /* Blog Page Styles */
+/* This css target class must become reconciled with the WP php output of classes as seen here: https://codex.wordpress.org/Function_Reference/post_class#Examples */
 .blog-post {
   margin-bottom: 2em; }
-  .blog-post h3 {
+  .blog-post .post-header h3 {
     border-bottom: solid 2px gray;
     margin: 20px 0 10px 0;
     text-transform: uppercase; }
-  .blog-post h4 {
+  .blog-post .post-header h4 {
     margin: 10px 0 30px 0;
     display: inline-block; }
-    .blog-post h4.published {
+    .blog-post .post-header h4 .published {
       /*  The time and date published on WP  */
       float: right;
       font-size: 16px;

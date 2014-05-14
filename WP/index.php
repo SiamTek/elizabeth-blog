@@ -6,13 +6,13 @@
 <!-- THE LOOP -->
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-	  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	  <article id="post-<?php the_ID(); ?>" <?php post_class('blog-post'); ?>>
 		<div class="post-header">
-			<div class="date"><?php the_time( 'M j y' ); ?></div>
 			<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
 				<h3><?php the_title(); ?></h3>
 			</a>
-			<div class="author"><?php the_author(); ?></div>
+			<div class="date"><h4 class="published"><?php the_time( 'F j, Y' ); ?></h4></div>
+			<!--<div class="author"><?php the_author(); ?></div>-->
 		</div><!--end post header-->
 		<div class="entry clear">
 			<?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
