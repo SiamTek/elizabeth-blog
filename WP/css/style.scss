@@ -88,11 +88,14 @@ section {
 	}
 }
 
-.container { 
 
-    background: white; 
-    padding-bottom: 30px; 
-    margin: 30px auto;
+img {
+
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 20px auto 20px;
+	clear: both;
 	
 }
 
@@ -123,6 +126,14 @@ a {
 .text-center {
 
 	text-align: center;
+	
+}
+
+.container { 
+
+    background: white; 
+    padding-bottom: 30px; 
+    margin: 30px auto;
 	
 }
 
@@ -413,8 +424,8 @@ aside {
 	img {
 	
 		display: block;
-		width: 100%;
-		max-height: 100%;
+		max-width: 100%;
+		height: auto;
 		
 	}
 	[class^="icon"] {
