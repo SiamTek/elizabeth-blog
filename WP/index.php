@@ -9,7 +9,9 @@
 	  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<div class="post-header">
 			<div class="date"><?php the_time( 'M j y' ); ?></div>
-			<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+			<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+				<h3><?php the_title(); ?></h3>
+			</a>
 			<div class="author"><?php the_author(); ?></div>
 		</div><!--end post header-->
 		<div class="entry clear">
