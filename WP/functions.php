@@ -74,7 +74,7 @@ function arphabet_widgets_init() {
 		'id' => 'home_right_1',
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget_title">',
+		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
 }
