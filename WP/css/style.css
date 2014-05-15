@@ -1,10 +1,13 @@
 /*
 Theme Name: Consistently Inconsistent
-Theme URI: Your Theme's URI
+Theme URI: OUR THEME'S URI
 Description: A blog for Elizabeth
 Version: v0.6
+License: GNU General Public License
+License URI: license.txt
 Author: Siam Tek; Seth Barthen, Diego Lucero, Adam Sackfield
 Author URI: http://siamtek.com
+Tags: light, white, green, two-columns, one-column, right-sidebar, flexible width, featured images, threaded comments
 */
 @import url("css/reset.css");
 @import url("css/grid.css");

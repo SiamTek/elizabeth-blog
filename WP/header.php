@@ -74,3 +74,4 @@
 	
 <!-- CONTENT -->
 <div class="row">
+	<section class="col-sm-8"><!-- BEGIN BLOG SECTION -->

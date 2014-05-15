@@ -1,8 +1,6 @@
 
 	<?php get_header(); ?>
 
-	<section class="col-sm-8"><!-- BEGIN BLOG SECTION -->
-
 <!-- THE LOOP -->
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
