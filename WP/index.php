@@ -17,7 +17,7 @@ get_header(); ?>
 <!-- THE LOOP -->
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
-	  <article id="post-<?php the_ID(); ?>" <?php post_class('entry-summary'); ?>>
+	  <article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-summary blog-post' ); ?>>
         <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
 		<div class="post-header">
 			<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
