@@ -2,8 +2,8 @@
 /**
  * The template used for displaying page content in page.php
  *
- * @package Shape
- * @since Shape 1.0
+ * @package Consistently Inconsistent 
+ * @since Consistently Inconsistent v0.6
  */
 ?>
  
@@ -14,7 +14,7 @@
  
     <div class="entry-content">
         <?php the_content(); ?>
-        <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'shape' ), 'after' => '</div>' ) ); ?>
-        <?php edit_post_link( __( 'Edit', 'shape' ), '<span class="edit-link">', '</span>' ); ?>
+        <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'ci_wp' ), 'after' => '</div>' ) ); ?>
+        <?php edit_post_link( __( 'Edit', 'ci_wp' ), '<span class="edit-link">', '</span>' ); ?>
     </div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

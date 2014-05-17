@@ -227,7 +227,7 @@ a:hover#menu-icon {
 
 .mob-nav-bar {
   display: none;
-  font-size: 32px;
+  font-size: 26px;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   right: 10px;
   top: 0;
@@ -240,7 +240,7 @@ a:hover#menu-icon {
   @media only screen and (max-width: 435px) {
     .mob-nav-bar {
       top: 25px;
-      font-size: 26px; } }
+      font-size: 24px; } }
   .mob-nav-bar .mob-nav {
     display: none; }
   .mob-nav-bar:hover .mob-nav, .mob-nav-bar:active .mob-nav {

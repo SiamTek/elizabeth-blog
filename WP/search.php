@@ -2,7 +2,7 @@
 /**
  * The template for displaying Search Results pages.
  *
- * @package Shape
+ * @package Consistently Inconsistent 
  * @since Consistently Inconsistent v0.6
  */
  
